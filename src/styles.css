@@ -1,3 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import "tailwindcss";
+
+/*Title font*/
+@font-face {
+    font-family: 'SpecialGothicCondensed';
+    src: url('assets/fonts/SpecialGothicCondensedOne-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;    
+}
+
+/*Body font*/
+@font-face {
+    font-family: 'SpecialGothicMedium';
+    src: url('assets/fonts/SpecialGothic-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@theme {
+    --font-sans: 'SpecialGothicMedium', ui-sans-serif, system-ui, sans-serif;
+
+    --font-condensed: 'SpecialGothicCondensed',sans-serif;
+}
