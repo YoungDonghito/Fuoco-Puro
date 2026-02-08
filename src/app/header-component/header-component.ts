@@ -1,16 +1,19 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Router, RouterLink } from "@angular/router";
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink],
   templateUrl: './header-component.html',
   styles: [],
 })
 export class HeaderComponent {
   isMenuOpen = false;
   isScrolled = false;
+
+  private router = inject(Router)
 
   @HostListener('window:scroll', [])
   onWindowScroll() {
@@ -19,5 +22,15 @@ export class HeaderComponent {
 
   toggleMenu() {
     this.isMenuOpen = !this.isMenuOpen;
+  }
+
+  goToMenu() {
+    this.router.navigate(['/menu']);
+    this.isMenuOpen = false;
+  }
+
+  goToContatti() {
+    this.router.navigate(['/contatti']);
+    this.isMenuOpen = false;
   }
 }

@@ -5,33 +5,30 @@
       <div class="absolute inset-0 bg-gradient-to-b from-black/70 to-transparent"></div>
     </div>
 
-    <div class="fixed left-0 top-0 z-50 w-full">
-      <app-header></app-header>
-    </div>
-
     <div class="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center">
       <div class="mb-6">
         <img src="images/Vector.png" alt="Fuoco Icon" class="h-12 w-auto" />
       </div>
 
       <h1
-        class="antialiased mb-8 max-w-5xl font-condensed leading-[0.9] text-white uppercase drop-shadow-lg text-[50px] md:text-[100px]"
+        class="antialiased mb-8 max-w-5xl font-condensed leading-[0.9] text-white uppercase drop-shadow-lg text-[50px] md:text-[140px]"
       >
         Pizza Napoletana,<br />
         Cucina Partenopea
       </h1>
 
       <button
-        class="antialiased bg-white px-8 py-3 font-condensed uppercase tracking-wider text-[#B93622] transition hover:bg-gray-100 text-[18px] md:text-[22px]"
+        routerLink="/menu"
+        class="antialiased bg-white px-8 py-3 font-condensed uppercase  text-[#B93622] transition hover:bg-gray-100 text-[18px] md:text-[22px]"
       >
         Scopri il Menu
       </button>
     </div>
   </div>
 
-<section class="flex justify-center bg-white px-4 py-20">
+  <section class="flex justify-center bg-white px-4 py-20">
     <div class="w-full text-center px-4">
-      <p class="antialiased font-condensed font-bold uppercase text-[#B93622] leading-[0.9] tracking-tight
+      <p class="antialiased font-condensed  uppercase text-[#B93622] leading-[0.9] 
                 text-[22px] md:text-[32px] lg:text-[30px]"
       >
         FUOCOPURO È UNA PIZZERIA NAPOLETANA CHE PORTA A PARMA LA TRADIZIONE PARTENOPEA,<br />
@@ -65,12 +62,13 @@
       </h2>
 
       <button
-        class="mt-2 bg-white font-condensed uppercase tracking-wider text-[#B93622] shadow-lg transition hover:bg-gray-100 w-full py-4 text-[20px] md:w-auto md:px-10 md:py-4 md:text-[24px]"
+        class="mt-2 bg-white font-condensed uppercase  text-[#B93622] shadow-lg transition hover:bg-gray-100 w-full py-4 text-[20px] md:w-auto md:px-10 md:py-4 md:text-[24px]"
       >
         Dove parcheggiare
       </button>
     </div>
   </section>
+
   <section class="flex flex-col items-center justify-center bg-white py-24 text-center px-4">
     <h2 class="antialiased mb-10 font-condensed uppercase text-[#B93622] text-[35px] md:text-[60px]">
       Preferisci ordinare da casa?
@@ -89,5 +87,4 @@
     </button>
   </section>
 
-  <app-footer></app-footer>
-</div>
+  </div>

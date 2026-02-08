@@ -1,0 +1,85 @@
+<div class="min-h-screen w-full pt-32 pb-20 stripes-bg font-condensed">
+  <div class="text-center mb-12">
+    <h1 class="text-[#B93622] text-[70px] md:text-[100px] leading-none uppercase tracking-tighter">
+      MENU
+    </h1>
+  </div>
+
+  <div class="max-w-4xl mx-auto px-6">
+    @for (sezione of menu; track sezione.id; let i = $index) {
+      <div
+        (click)="toggleSezione(i)"
+        class="border-b-2 border-[#B93622] py-3 flex items-center justify-between cursor-pointer group select-none transition-colors"
+      >
+        <h2 class="text-[#B93622] text-[40px] md:text-[55px] uppercase leading-[0.9]">
+          {{ sezione.titolo }}
+        </h2>
+        <div class="transition-transform duration-300 group-hover:translate-y-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="3"
+            stroke="currentColor"
+            class="w-8 h-8 md:w-10 md:h-10 text-[#B93622] transition-transform duration-300"
+            [class.rotate-180]="!sezione.aperto"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75"
+            />
+          </svg>
+        </div>
+      </div>
+
+      @if (sezione.aperto) {
+        <div class="py-4 animate-fadeIn">
+          @for (piatto of sezione.piatti; track piatto.nome) {
+            <div
+              class="border-b-2 border-dotted border-[#B93622] pb-5 mb-5 last:border-0 last:pb-0 last:mb-0"
+            >
+              <div class="flex justify-between items-baseline mb-1">
+                <h3
+                  class="font-sans text-[#B93622] text-[20px] md:text-[24px] uppercase tracking-normal"
+                >
+                  {{ piatto.nome }}
+                </h3>
+
+                @if (piatto.prezzo) {
+                  <span class="font-sans text-[#B93622] text-lg md:text-xl whitespace-nowrap ml-4">
+                    {{ piatto.prezzo }}
+                  </span>
+                }
+              </div>
+
+              @if (piatto.ingredienti) {
+                @if (isList(piatto.ingredienti)) {
+                  <ul
+                    class="font-sans text-[#B93622] text-[16px] md:text-[18px] leading-tight font-medium opacity-90 list-none mt-2 space-y-1"
+                  >
+                    @for (riga of piatto.ingredienti; track riga) {
+                      <li>{{ riga }}</li>
+                    }
+                  </ul>
+                } @else {
+                  <p
+                    class="font-sans text-[#B93622] text-[16px] md:text-[18px] leading-tight font-medium opacity-90 lowercase first-letter:uppercase mt-1"
+                  >
+                    {{ piatto.ingredienti }}
+                  </p>
+                }
+              }
+            </div>
+          }
+
+          @if (sezione.piatti.length === 0) {
+            <div class="text-center py-4 opacity-50 text-[#B93622] italic font-sans">
+              Menu in aggiornamento...
+            </div>
+          }
+        </div>
+      }
+    }
+  </div>
+</div>
