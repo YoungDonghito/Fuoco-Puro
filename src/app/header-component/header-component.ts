@@ -33,4 +33,9 @@ export class HeaderComponent {
     this.router.navigate(['/contatti']);
     this.isMenuOpen = false;
   }
+
+  goToHome() {
+    this.router.navigate(['/']);
+    this.isMenuOpen = false;
+  }
 }
