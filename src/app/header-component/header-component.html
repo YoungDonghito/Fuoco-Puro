@@ -2,7 +2,7 @@
   class="antialiased fixed top-0 left-0 w-full items-center justify-between px-8 transition-all duration-300 z-50 flex font-condessed"
   [class.py-6]="!isScrolled"
   [class.py-3]="isScrolled"
-  [class.bg-white]="isScrolled && !isMenuOpen"
+  [class.bg-[#FCFBF7]]="isScrolled && !isMenuOpen"
   [class.bg-transparent]="!isScrolled || isMenuOpen"
 >
   <div class="flex items-center z-50 transition-all duration-300">
@@ -33,7 +33,7 @@
 
   <button
     class="z-50 block md:hidden focus:outline-none transition-colors duration-300"
-    [class.text-white]="isMenuOpen"
+    [class.text-[#FCFBF7]]="isMenuOpen"
     [class.text-[#B93622]]="!isMenuOpen"
     (click)="toggleMenu()"
     aria-label="Toggle menu"
@@ -72,7 +72,7 @@
   </button>
 
   <div
-    class="antialiased fixed inset-0 z-40 flex flex-col bg-[#B93622] text-white transition-transform duration-300 ease-in-out"
+    class="antialiased fixed inset-0 z-40 flex flex-col bg-[#B93622] text-[#FCFBF7] transition-transform duration-300 ease-in-out"
     [class.translate-x-0]="isMenuOpen"
     [class.translate-x-full]="!isMenuOpen"
   >

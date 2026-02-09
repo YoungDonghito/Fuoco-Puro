@@ -25,3 +25,9 @@
 
     --font-condensed: 'SpecialGothicCondensed',sans-serif;
 }
+
+@layer base {
+    body {
+        background-color: #FCFBF7 !important;
+    }
+}
