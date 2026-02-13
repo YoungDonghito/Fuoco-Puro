@@ -33,23 +33,65 @@
       </div>
     </div>
   </div>
-  <div class="container mx-auto px-4 mt-20 text-center">
-    <h2 class="text-[50px] md:text-[65px] leading-none mb-10">SEGUICI SU</h2>
+
+  <section class="grid w-full grid-cols-1 md:grid-cols-2">
+    <div
+      class="flex flex-col items-center justify-center px-6 py-16 text-center text-[#B93622] md:h-[585px]"
+    >
+      <h2
+        class="antialiased mb-6 font-condensed uppercase leading-tight text-[35px] md:text-[55px]"
+      >
+        SCOPRI IL NOSTRO LOCALE
+      </h2>
+    </div>
+
+    <div class="flex flex-col items-center justify-center md:h-[585px]">
+      <div class="card custom-carousel relative w-full h-[400px] md:h-[585px] overflow-hidden">
+        <p-carousel
+          #pc
+          [value]="products()"
+          [numVisible]="1"
+          [numScroll]="1"
+          [circular]="true"
+          [showIndicators]="false"
+          [showNavigators]="false"
+        >
+          <ng-template let-product pTemplate="item">
+            <div class="w-full h-[400px] md:h-[585px]">
+              <img [src]="product.image" alt="Foto locale" class="w-full h-full object-cover" />
+            </div>
+          </ng-template>
+        </p-carousel>
+
+        <div class="absolute inset-0 flex items-center justify-between px-4 pointer-events-none">
+          <p-button
+            icon="pi pi-arrow-left"
+            (click)="pc.navBackward($event)"
+            styleClass="btn-white-always pointer-events-auto w-12 h-12 md:w-16 md:h-16 bg-transparent border-none flex items-center justify-center"
+          >
+          </p-button>
+
+          <p-button
+            icon="pi pi-arrow-right"
+            (click)="pc.navForward($event)"
+            styleClass="btn-white-always pointer-events-auto w-12 h-12 md:w-16 md:h-16 bg-transparent border-none flex items-center justify-center"
+          >
+          </p-button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="w-full bg-[#B93622] text-[#FCFBF7] py-20">
+    <h2 class="text-[50px] md:text-[65px] text-center leading-none mb-10 uppercase font-condensed">
+      SEGUICI SU
+    </h2>
 
     <div
       class="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 text-2xl md:text-3xl"
     >
-      <!-- <a href="#" class="flex items-center gap-4 hover:opacity-70 transition-opacity group">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 fill-current" viewBox="0 0 24 24">
-          <path
-            d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.15 5.96C15.21 5.96 16.12 6.04 16.12 6.04V8.51H15.01C13.77 8.51 13.38 9.28 13.38 10.07V12.06H16.16L15.72 14.96H13.38V21.96C18.16 21.21 21.82 17.06 21.82 12.06C21.82 6.53 17.32 2.04 12 2.04Z"
-          />
-        </svg>
-        <span class="pt-1">FACEBOOK</span>
-      </a> -->
-
       <a
-        href="https://www.instagram.com/fuocopuro_montanara?igsh=MTlsdjM5YXA4eTZycg=="
+        href="https://www.instagram.com/fuocopuro_montanara"
         target="_blank"
         class="flex items-center gap-4 hover:opacity-70 transition-opacity group"
       >
@@ -58,8 +100,22 @@
             d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z"
           />
         </svg>
-        <span class="pt-1">INSTAGRAM</span>
+        <span class="pt-1 font-condensed">INSTAGRAM</span>
       </a>
+    </div>
+  </div>
+
+  <div class="w-full bg-[#FCFBF7] py-16">
+    <div class="container mx-auto px-4 text-center">
+      <h2
+        class="text-[50px] md:text-[65px] leading-[1.1] mb-6 font-condensed uppercase text-[#B93622] "
+      >
+        TI ASPETTIAMO ANCHE NEL NOSTRO<br class="hidden md:block" />
+        LOCALE PRESSO “LA GALLERIA”
+      </h2>
+      <div class="text-xl md:text-2xl font-condensed uppercase text-[#B93622]">
+        VIA EMILIA EST, 7/B - 43121 PARMA
+      </div>
     </div>
   </div>
 </div>
