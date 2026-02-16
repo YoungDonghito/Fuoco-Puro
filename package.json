@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:fuoco-puro": "node dist/fuoco-puro/server/server.mjs",
-    "deploy": "ng build --base-href /Fuoco-Puro/ && npx gh-pages -d dist/fuoco-puro/browser"
+    "deploy": "ng build --configuration production --base-href /Fuoco-Puro/ --ssr false && npx gh-pages -d dist/fuoco-puro/browser"
   },
   "prettier": {
     "printWidth": 100,
