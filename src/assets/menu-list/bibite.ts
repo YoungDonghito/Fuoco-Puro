@@ -2,7 +2,7 @@ import { Piatto } from "../../app/model/menu.model";
 export const BIBITE: Piatto[] = [
     {
         nome: 'COCA COLA, FANTA',
-        ingredienti: 'bicchiere alla spina 40cl',
+        ingredienti: '',
         prezzo: '4,00€'
     },
     {
