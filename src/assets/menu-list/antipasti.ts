@@ -14,7 +14,7 @@ export const ANTIPASTI: Piatto[] = [
       '2) Salsiccia di maiale a punta di coltello e friarielli napoletani',
       '3) Genovese napoletana',
     ],
-    prezzo: '8€',
+    prezzo: '13,50€',
   },
   {
     nome: 'FRITTATINA DI PASTA NAPOLETANE',
@@ -24,11 +24,16 @@ export const ANTIPASTI: Piatto[] = [
   {
     nome: 'PARMIGINANA DI MELANZANE',
     ingredienti: 'con ragù classico napoletano, provola affumicata e basilico',
-    prezzo: '8€',
+    prezzo: '10€',
   },
   {
     nome: 'MOZZARELLA IN CARROZZA',
     ingredienti: 'pane in cassetta ripieno di mozzarella filante',
+    prezzo: '8€',
+  },
+  {
+    nome: 'BURRATA',
+    ingredienti: 'burrata golosa di Puglia con mix di pomodori, rucola, olio evo e crostini di pane',
     prezzo: '10€',
   },
   {
