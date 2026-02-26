@@ -1,6 +1,4 @@
 import { Component, OnInit, Renderer2, Inject } from '@angular/core';
-import { HeaderComponent } from '../header-component/header-component';
-import { FooterComponent } from '../footer-component/footer-component';
 import { RouterLink } from "@angular/router";
 import { Meta, Title } from '@angular/platform-browser';
 import { DOCUMENT } from '@angular/common';
@@ -8,7 +6,7 @@ import { DOCUMENT } from '@angular/common';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [RouterLink, HeaderComponent, FooterComponent],
+  imports: [RouterLink],
   templateUrl: './home-component.html',
   styles: []
 })
@@ -38,13 +36,15 @@ export class HomeComponent implements OnInit {
       "image": "",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "via Montanara 15",
+        "streetAddress": "",
         "addressLocality": "Parma",
-        "postalCode": "43124",
+        "postalCode": "",
         "addressCountry": "IT"
       },
       "servesCuisine": "Pizza",
-      "url": "www.fuocopuro-montanara.it"
+      "priceRange": "€€",
+      "telephone": "",
+      "url": ""
     };
 
     const script = this.renderer.createElement('script');
