@@ -25,28 +25,26 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.titleService.setTitle('Pizzeria Fuoco Puro Montanara | Parma');
 
-    this.metaService.updateTag({ name: 'description', content: 'Vieni ad assaggiare la vera pizza da Fuoco Puro nel quartiere Montanara a Parma. Ingredienti freschi e impasto a lunga lievitazione.' });
+    this.metaService.updateTag({ name: 'description', content: 'Vieni ad assaggiare la vera pizza da Fuoco Puro nel quartiere Montanara a Parma.' });
     this.metaService.updateTag({ property: 'og:title', content: 'Pizzeria Fuoco Puro Montanara | Parma' });
-    this.metaService.updateTag({ property: 'og:description', content: 'Vieni ad assaggiare la vera pizza da Fuoco Puro nel quartiere Montanara a Parma. Ingredienti freschi e impasto a lunga lievitazione.' });
+    this.metaService.updateTag({ property: 'og:description', content: 'Vieni ad assaggiare la vera pizza da Fuoco Puro nel quartiere Montanara a Parma.' });
     this.metaService.updateTag({ property: 'og:type', content: 'restaurant.restaurant' });
     this.metaService.updateTag({ property: 'og:locale', content: 'it_IT' });
 
     const schema = {
       "@context": "https://schema.org",
       "@type": "Restaurant",
-      "name": "Fuoco Puro Montanara",
-      "image": "https://www.tuosito.it/assets/foto-vetrina.jpg",
+      "name": "",
+      "image": "",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Via Montanara",
+        "streetAddress": "",
         "addressLocality": "Parma",
-        "postalCode": "43124",
+        "postalCode": "",
         "addressCountry": "IT"
       },
       "servesCuisine": "Pizza",
-      "priceRange": "€€",
-      "telephone": "+390521000000",
-      "url": "https://www.tuosito.it"
+      "url": "www.fuocopuro-montanara.it"
     };
 
     const script = this.renderer.createElement('script');
