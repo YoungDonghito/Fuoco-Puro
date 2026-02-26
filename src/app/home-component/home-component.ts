@@ -38,9 +38,9 @@ export class HomeComponent implements OnInit {
       "image": "",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "",
+        "streetAddress": "via Montanara 15",
         "addressLocality": "Parma",
-        "postalCode": "",
+        "postalCode": "43124",
         "addressCountry": "IT"
       },
       "servesCuisine": "Pizza",
