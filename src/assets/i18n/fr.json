@@ -1,0 +1,391 @@
+{
+  "HEADER": {
+    "MENU": "Menu",
+    "CONTATTI": "Contacts",
+    "TEL": "0521 1962073",
+    "SEGUICI": "Suivez-nous :"
+  },
+  "HOME": {
+    "HERO": {
+      "TITLE_L1": "Pizza Napolitaine,",
+      "TITLE_L2": "Cuisine Parthénopéenne",
+      "CTA": "Découvrir le Menu"
+    },
+    "CLAIM": "FUOCOPURO EST UNE PIZZERIA NAPOLITAINE QUI APPORTE À PARME LA TRADITION PARTHÉNOPÉENNE, FAITE DE PÂTES GENUINES, D'INGRÉDIENTS AUTHENTIQUES ET DE RESPECT POUR LES TEMPS DE LA PIZZA. NOTRE CUISINE NAÎT DE LA SIMPLICITÉ : PEU DE RÈGLES, ET BIEN FAITES.",
+    "MAPPA": {
+      "TITLE_L1": "Venez nous trouver au",
+      "TITLE_L2": "Strada Montanara 15, Parme",
+      "CTA": "Où se garer"
+    }
+  },
+  "MENU": {
+    "TITLE": "MENU",
+    "AGGIORNAMENTO": "Menu en cours de mise à jour...",
+    "SCIUE": {
+      "TITOLO": "SCIUÈ SCIUÈ",
+      "TOCCHETTI_DI_CRUDO": { "NOME": "DÉS DE JAMBON CRU À L'HUILE AVEC CROÛTONS" },
+      "OLIVE_E_LUPINI": { "NOME": "OLIVES ET LUPINS ASSAISONNÉS" }
+    },
+    "ANTIPASTI": {
+      "TITOLO": "ENTRÉES",
+      "BRUSCHETTA": {
+        "NOME": "BRUSCHETTA TOMATE ET ORIGAN",
+        "INGREDIENTI": "pain blanc, tomate grappe, basilic, huile d'olive vierge extra, ail frais et origan"
+      },
+      "I_BACI_DI_SOPHIA": {
+        "NOME": "I BACI DI SOPHIA",
+        "INGREDIENTI_INTRO": "3 montanare farcies :",
+        "INGREDIENTI_1": "1) Ragù napolitain et boulettes de bœuf",
+        "INGREDIENTI_2": "2) Saucisse de porc à la pointe du couteau et friarielli napolitains",
+        "INGREDIENTI_3": "3) Genovese napolitaine"
+      },
+      "FRITTATINA_DI_PASTA": {
+        "NOME": "FRITTATINA DE PÂTES NAPOLITAINE",
+        "INGREDIENTI": "avec béchamel, farcie de viande hachée et petits pois"
+      },
+      "PARMIGIANA_DI_MELANZANE": {
+        "NOME": "PARMIGIANA D'AUBERGINES",
+        "INGREDIENTI": "avec ragù napolitain classique, provola fumée et basilic"
+      },
+      "MOZZARELLA_IN_CARROZZA": {
+        "NOME": "MOZZARELLA IN CARROZZA",
+        "INGREDIENTI": "pain de mie farci de mozzarella fondante"
+      },
+      "IL_CUOPPO": {
+        "NOME": "IL CUOPPO – FRITURE MIXTE NAPOLITAINE POUR 2",
+        "INGREDIENTI": "croquettes de pommes de terre sel et poivre, arancini de riz, montanare à la tomate, parmesan et basilic, beignets aux algues et paccheri farcis à la ricotta de bufflonne"
+      },
+      "ZEPPOLE_ALLE_ALGHE": {
+        "NOME": "ZEPPOLE AUX ALGUES",
+        "INGREDIENTI": "beignets de pâte à la laitue de mer, sel et poivre"
+      },
+      "LA_SCAMPAGNATA": {
+        "NOME": "LA SCAMPAGNATA – POUR 2, PLANCHE DE :",
+        "INGREDIENTI_1": "Charcuterie : mortadelle de Bologne IGP, jambon cru de Parme DOP",
+        "INGREDIENTI_2": "Fromages : burrata de Pouille, cacioricotta affiné",
+        "INGREDIENTI_3": "Boulettes de bœuf et artichaut grillé"
+      }
+    },
+    "MOZZARELLE": {
+      "TITOLO": "MOZZARELLA DE BUFFLONNE DOP",
+      "CON_POMODORO_RAMATO": {
+        "NOME": "AVEC TOMATE GRAPPE ET BASILIC (115g)",
+        "INGREDIENTI": "huile d'olive vierge extra DOP, origan et basilic"
+      },
+      "CON_BUFALA_E_FRIARIELLI": { "NOME": "AVEC BUFFLONNE ET FRIARIELLI (115g)" },
+      "CON_PROSCIUTTO_DI_PARMA": {
+        "NOME": "AVEC JAMBON DE PARME DOP, MELON ET TOMATES CERISES (230g)",
+        "INGREDIENTI": "pour 2 personnes – huile d'olive vierge extra DOP, mélange de pain grillé et origan"
+      },
+      "CON_POMODORINI_E_RUCOLA": {
+        "NOME": "AVEC TOMATES CERISES ET ROQUETTE (230g)",
+        "INGREDIENTI": "pour 2 personnes – huile d'olive vierge extra DOP et origan"
+      }
+    },
+    "INSALATONE": {
+      "TITOLO": "GRANDES SALADES",
+      "PURO_DETOX": {
+        "NOME": "PURO – DETOX",
+        "INGREDIENTI": "salade verte, fenouil, céleri, lupins, pomme, ananas, graines de courge, réduction de vinaigre balsamique et huile d'olive vierge extra"
+      },
+      "CIACIELLA": {
+        "NOME": "CIACIELLA",
+        "INGREDIENTI": "salade verte, roquette, lanières de bœuf, champignons, courgettes grillées, tomates séchées et copeaux de parmesan"
+      },
+      "PROSCIUTTELLA": {
+        "NOME": "PROSCIUTTELLA",
+        "INGREDIENTI": "roquette, radicchio, salade verte, mozzarella de bufflonne DOP, jambon cru de Parme DOP à l'huile, dés de melon, glace de vinaigre balsamique et croûtons"
+      },
+      "CESARONA": {
+        "NOME": "CESARONA",
+        "INGREDIENTI": "salade verte, radicchio, roquette, blanc de poulet grillé, bacon croustillant, copeaux de parmesan, olives noires, sésame grillé et sauce caesar"
+      },
+      "TONNARA": {
+        "NOME": "TONNARA",
+        "INGREDIENTI": "salade verte, roquette, filets de thon, pommes de terre vapeur, haricots verts, œufs durs, tomate grappe, olives vertes et frisella complète"
+      },
+      "BRACETTA": {
+        "NOME": "BRACETTA",
+        "INGREDIENTI": "salade verte, légumes grillés, roquette, caciottella de bufflonne, tomate grappe, olives vertes et vinaigrette au yaourt"
+      }
+    },
+    "PIZZE": {
+      "TITOLO": "PIZZAS",
+      "MARINARA": {
+        "NOME": "MARINARA",
+        "INGREDIENTI": "tomates San Marzano DOP, ail, origan, huile d'olive vierge extra de la péninsule Sorrentine DOP, basilic"
+      },
+      "MARGHERITA": { "NOME": "MARGHERITA", "INGREDIENTI": "tomate, mozzarella, basilic" },
+      "MARGHERITA_PROVOLA_E_PEPE": {
+        "NOME": "MARGHERITA PROVOLA FUMÉE ET POIVRE",
+        "INGREDIENTI": "tomate, provola fumée, parmesan, poivre et basilic"
+      },
+      "COSACCA": {
+        "NOME": "COSACCA",
+        "INGREDIENTI": "filet de tomate ancienne de Naples, pecorino de Bagnoli, basilic"
+      },
+      "DIAVOLA": { "NOME": "DIAVOLA", "INGREDIENTI": "tomate, mozzarella, salami piquant et basilic" },
+      "NAPOLI": { "NOME": "NAPOLI", "INGREDIENTI": "tomate, mozzarella, anchois, olives noires et câpres" },
+      "BIANCA_COTTO_E_FUNGHI": {
+        "NOME": "PIZZA BLANCHE JAMBON CUIT ET CHAMPIGNONS",
+        "INGREDIENTI": "mozzarella, crème fraîche, champignons de Paris, jambon cuit et basilic"
+      },
+      "LA_DOC": {
+        "NOME": "LA DOC",
+        "INGREDIENTI": "tomate, mozzarella de bufflonne DOP et basilic (en sortie du four : huile d'olive vierge extra de la péninsule Sorrentine DOP)"
+      },
+      "FUOCO_PURO": {
+        "NOME": "FUOCO PURO",
+        "INGREDIENTI": "provola fumée d'Agerola, San Marzano DOP, Piennolo del Vesuvio DOP, datterini jaunes de Battipaglia et copeaux de cacioricotta affiné"
+      },
+      "CAPRICCIOSA": {
+        "NOME": "CAPRICCIOSA",
+        "INGREDIENTI": "tomate, mozzarella, champignons, jambon cuit, artichauts et olives noires"
+      },
+      "PARMENSE": {
+        "NOME": "PARMENSE",
+        "INGREDIENTI": "mozzarella, jambon de Parme DOP, roquette et copeaux de parmesan"
+      },
+      "CINQUE_FORMAGGI": {
+        "NOME": "CINQ FROMAGES",
+        "INGREDIENTI": "provola fumée, caciotta de bufflonne, gorgonzola, emmental et tuile de parmesan"
+      },
+      "DONNA_LAURA": {
+        "NOME": "DONNA LAURA",
+        "INGREDIENTI": "provola fumée, saucisse, poivrons gratinés, olives et câpres"
+      },
+      "MORTADELLA_E_PANZEROTTO": {
+        "NOME": "MORTADELLE ET CROQUETTE DE POMME DE TERRE",
+        "INGREDIENTI": "provola fumée, croquette de pomme de terre, mortadelle IGP et éclats de pistache"
+      },
+      "TONNO_E_CIPOLLA_ROSSA": {
+        "NOME": "THON ET OIGNON ROUGE",
+        "INGREDIENTI": "tomate, mozzarella, thon à l'huile, oignon rouge et olives noires"
+      },
+      "LA_CAFONA": {
+        "NOME": "LA CAFONA",
+        "INGREDIENTI": "mozzarella, saucisse, pommes de terre au romarin au four"
+      }
+    },
+    "STAGIONALI": {
+      "TITOLO": "PIZZAS SAISONNIÈRES",
+      "SALSICCIA_E_FRIARIELLI": {
+        "NOME": "SAUCISSE ET FRIARIELLI",
+        "INGREDIENTI": "provola fumée, saucisse, friarielli napolitains"
+      },
+      "RAGU_E_POLPETTINE": {
+        "NOME": "RAGÙ ET BOULETTES",
+        "INGREDIENTI": "mozzarella, ragù napolitain, ricotta de bufflonne, boulettes de bœuf"
+      },
+      "ANGRISELLA": {
+        "NOME": "ANGRISELLA",
+        "INGREDIENTI": "provola fumée, scarole aux olives et câpres, copeaux de pecorino, pignons grillés"
+      },
+      "CACIO_E_PEPE": {
+        "NOME": "CACIO E PEPE",
+        "INGREDIENTI": "mozzarella, pecorino, grains de poivre noir moulus et burrata de bufflonne"
+      },
+      "PUVERELLA": {
+        "NOME": "PUVERELLA",
+        "INGREDIENTI": "mozzarella, poivrons, aubergines, courgettes sautés à la poêle et basilic"
+      }
+    },
+    "RIPIENE": {
+      "TITOLO": "PIZZAS FARCIES",
+      "CALZONE_AL_COTTO": {
+        "NOME": "CALZONE AU JAMBON CUIT",
+        "INGREDIENTI": "ricotta de bufflonne, jambon cuit, mozzarella, tomate et poivre"
+      },
+      "CALZONE_ALLA_SCAROLA": {
+        "NOME": "CALZONE À LA SCAROLE",
+        "INGREDIENTI": "provola fumée, scarole, olives, câpres, pignons grillés et parmesan"
+      },
+      "CALZONE_AL_SALAME": {
+        "NOME": "CALZONE AU SALAMI",
+        "INGREDIENTI": "ricotta de bufflonne, salami de Naples, mozzarella, tomate et poivre"
+      },
+      "SOLE_LUNA": {
+        "NOME": "SOLE LUNA",
+        "INGREDIENTI": "moitié farcie avec ricotta de bufflonne, tomate, mozzarella, parmesan, poivre, salami de Naples ; moitié mozzarella, jambon de Parme DOP"
+      }
+    },
+    "FRITTA": {
+      "TITOLO": "PIZZA FRITE",
+      "MBUTTANATA": { "NOME": "'MBUTTANATA", "INGREDIENTI": "mozzarella, tomate, poivre et basilic" },
+      "CHICCHINESE": {
+        "NOME": "CHICCHINESE",
+        "INGREDIENTI": "provola fumée, ricotta de bufflonne, salami de Naples, parmesan, basilic et poivre"
+      },
+      "CICCIOLONA": {
+        "NOME": "CICCIOLONA",
+        "INGREDIENTI": "provola fumée, tomate, cicoli napolitains, ricotta de bufflonne DOP, basilic et poivre"
+      },
+      "SCARULELLA": {
+        "NOME": "SCARULELLA",
+        "INGREDIENTI": "provola fumée, scarole, olives, câpres, pignons grillés et basilic"
+      }
+    },
+    "INTEGRALI": {
+      "TITOLO": "PIZZAS COMPLÈTES",
+      "CARCIOFINA": {
+        "NOME": "CARCIOFINA (FARINE DE CÉRÉALES)",
+        "INGREDIENTI": "mozzarella, crème d'artichauts ; en sortie : artichaut grillé, oignon caramélisé, jambon de Parme DOP croustillant"
+      },
+      "BUFALA_E_PARMA": {
+        "NOME": "BUFFLONNE ET PARME (FARINE DE CÉRÉALES)",
+        "INGREDIENTI": "mozzarella de bufflonne DOP, tomates cerises, jambon de Parme DOP, roquette, tuile de parmesan"
+      },
+      "PUMMAROLA_MARINARA": {
+        "NOME": "PUMMAROLA.. MARINARA AUX 3 TOMATES (FARINE COMPLÈTE)",
+        "INGREDIENTI": "San Marzano DOP, Piennolo del Vesuvio DOP, datterini jaunes de Battipaglia, olives noires, câpres, ail frais et origan"
+      },
+      "CREMA_DI_RADICCHIO_E_GORGONZOLA": {
+        "NOME": "CRÈME DE RADICCHIO ET GORGONZOLA (FARINE COMPLÈTE)",
+        "INGREDIENTI": "mozzarella, gorgonzola, crème de radicchio ; en sortie : bacon croustillant"
+      }
+    },
+    "SPAGHETTI": {
+      "TITOLO": "SPAGHETTIS DE GRAGNANO",
+      "CON_ACCIUGHE": {
+        "NOME": "SPAGHETTIS FILÉS AU BRONZE AVEC ANCHOIS DE MER CANTABRIQUE, TOMATES CERISES JAUNES, OLIVES ET CÂPRES",
+        "INGREDIENTI": "avec ail, huile, piment et persil"
+      },
+      "CON_POMODORINI": {
+        "NOME": "SPAGHETTIS FILÉS AU BRONZE AVEC TOMATES CERISES ROUGES, BASILIC ET HUILE D'OLIVE VIERGE EXTRA DOP"
+      },
+      "CON_COZZE_E_VONGOLE": {
+        "NOME": "SPAGHETTIS FILÉS AU BRONZE AVEC MOULES ET PALOURDES",
+        "INGREDIENTI": "avec ail, huile et persil, nappés aux tomates cerises"
+      }
+    },
+    "PASTA": {
+      "TITOLO": "PÂTES FRAÎCHES DE SEMOULE DE BLÉ DUR",
+      "GNOCCHI_DI_PATATE": {
+        "NOME": "GNOCCHIS DE POMME DE TERRE ALLA SORRENTINA",
+        "INGREDIENTI": "gratinés au four avec provola fumée, tomate corbarino, parmesan et basilic"
+      },
+      "PACCHERI_ALLA_GENOVESE": {
+        "NOME": "PACCHERI ALLA GENOVESE NAPOLITAINE",
+        "INGREDIENTI": "avec ragù blanc de bœuf et oignon étuvé, parmesan et basilic"
+      },
+      "MANFREDI_RICOTTA_E_RAGU": {
+        "NOME": "MANFREDI RICOTTA ET RAGÙ NAPOLITAIN",
+        "INGREDIENTI": "avec ricotta de bufflonne, bouchée de viande au ragù napolitain, parmesan et basilic"
+      },
+      "PASTA_PATATE_E_PROVOLA": {
+        "NOME": "PÂTES POMMES DE TERRE ET PROVOLA EN CHEMISE",
+        "INGREDIENTI": "en cocotte avec pommes de terre et guanciale, mantecat avec provola fumée"
+      }
+    },
+    "CARNE": {
+      "TITOLO": "VIANDE",
+      "SALSICCIA_E_FRIARIELLI": {
+        "NOME": "SAUCISSE ET FRIARIELLI",
+        "INGREDIENTI": "saucisse à la pointe du couteau et friarielli napolitains"
+      },
+      "PULLICINO": {
+        "NOME": "PULLICINO",
+        "INGREDIENTI": "blanc de poulet (250g), porcini sautés, bacon croustillant, noisettes grillées, roquette"
+      },
+      "HAMBURGER_DI_CHIANINA": {
+        "NOME": "BURGER DE BŒUF CHIANINA*",
+        "INGREDIENTI": "burger (200g), pommes de terre au four"
+      },
+      "POLPETTE_DELLA_NONNA": {
+        "NOME": "BOULETTES DE GRAND-MÈRE",
+        "INGREDIENTI": "de bœuf* au ragù napolitain, pain, parmesan et basilic"
+      }
+    },
+    "CONTORNI": {
+      "TITOLO": "ACCOMPAGNEMENTS",
+      "MELANZANE_A_FUNGHETTO": { "NOME": "AUBERGINES À LA FAÇON DES CHAMPIGNONS" },
+      "PATATE_AL_FORNO": { "NOME": "POMMES DE TERRE AU FOUR" },
+      "FRIARIELLI_NAPOLETANI": { "NOME": "FRIARIELLI NAPOLITAINS À LA POÊLE" },
+      "PATATE_FRITTE": { "NOME": "FRITES*" },
+      "SCAROLE_OLIVE_E_CAPPERI": { "NOME": "SCAROLE, OLIVES ET CÂPRES" },
+      "MIX_DI_POMODORI": { "NOME": "MIX DE TOMATES, OIGNON ROUGE, ROQUETTE ET ORIGAN" }
+    },
+    "CANTINA": {
+      "TITOLO": "CAVE",
+      "VINI_BIANCHI": {
+        "CATEGORIA": "VINS BLANCS",
+        "LACRYMA_CHRISTI_BIANCO": { "NOME": "LACRYMA CHRISTI DEL VESUVIO DOC", "INGREDIENTI": "Enodelta" },
+        "FALANGHINA_DEL_SANNIO": { "NOME": "FALANGHINA DEL SANNIO DOP" },
+        "GRECO_DI_TUFO": { "NOME": "GRECO DI TUFO DOCG" },
+        "FIANO_DI_AVELLINO": { "NOME": "FIANO DI AVELLINO DOCG" },
+        "FALANGHINA_CAMPANIA": { "NOME": "FALANGHINA CAMPANIA IGP", "INGREDIENTI": "pétillant naturel" },
+        "FALANGHINA_POMPEIANO": { "NOME": "FALANGHINA POMPEIANO IGP" }
+      },
+      "VINI_ROSSI": {
+        "CATEGORIA": "VINS ROUGES",
+        "LACRYMA_CHRISTI_ROSSO": { "NOME": "LACRYMA CHRISTI DEL VESUVIO DOP", "INGREDIENTI": "Enodelta" },
+        "AGLIANICO_SANNIO": { "NOME": "AGLIANICO SANNIO DOP" },
+        "ROSSO_POMPEIANO": { "NOME": "ROSSO POMPEIANO", "INGREDIENTI": "igp piedirosso – per 'e palummo" },
+        "GRAGNANO_DOC": { "NOME": "GRAGNANO DOC PENISOLA SORRENTINA", "INGREDIENTI": "pétillant naturel" },
+        "AGLIANICO_POMPEIANO": { "NOME": "AGLIANICO POMPEIANO IGP" }
+      },
+      "VINI_ROSE": {
+        "CATEGORIA": "VINS ROSÉS",
+        "LACRYMA_CHRISTI_ROSE": { "NOME": "LACRYMA CHRISTI DEL VESUVIO DOC" }
+      },
+      "VINO_DELLA_CASA": {
+        "CATEGORIA": "VIN DE LA MAISON",
+        "ROSSO_E_BIANCO_VIVACE": { "NOME": "ROUGE ET BLANC PÉTILLANT" }
+      },
+      "SPUMANTI": {
+        "CATEGORIA": "VINS PÉTILLANTS",
+        "FERDINANDVS_I": { "NOME": "FERDINANDVS I", "INGREDIENTI": "Asprinio di Aversa extra brut – cuvée millésimée" },
+        "PROSECCO": { "NOME": "PROSECCO" },
+        "FRANCIACORTA_BRUT": { "NOME": "FRANCIACORTA BRUT" }
+      },
+      "APERITIVI": {
+        "CATEGORIA": "APÉRITIFS",
+        "PROSECCO_AL_CALICE": { "NOME": "PROSECCO (AU VERRE)" },
+        "APEROL_CAMPARI_SPRITZ": { "NOME": "APEROL / CAMPARI SPRITZ" },
+        "SARTI_SPRITZ": { "NOME": "SARTI SPRITZ", "INGREDIENTI": "avec mangue et fruit de la passion" }
+      }
+    },
+    "BIRRE": {
+      "TITOLO": "BIÈRES",
+      "STELLA_ARTOIS": { "NOME": "STELLA ARTOIS BLONDE" },
+      "LEFFE_ROSSA": { "NOME": "LEFFE ROSSA DOUBLE MALT" },
+      "BIRRE_IN_BOTTIGLIA": { "CATEGORIA": "BIÈRES EN BOUTEILLE" },
+      "BIRRE_ARTIGIANALI": { "NOME": "BIÈRES ARTISANALES (33cl)" }
+    },
+    "BIBITE": {
+      "TITOLO": "BOISSONS",
+      "COCA_COLA_FANTA": { "NOME": "COCA COLA, FANTA", "INGREDIENTI": "verre pression 40cl" },
+      "GAZZOSA_BIO": { "NOME": "LIMONADE BIO – CHINOTTO BIO", "INGREDIENTI": "bouteille 35,5cl" },
+      "ACQUA_MINERALE": { "NOME": "EAU MINÉRALE", "INGREDIENTI": "bouteille 50cl" }
+    }
+  },
+  "CONTATTI": {
+    "TITLE": "CONTACTS",
+    "NOME": "FUOCOPURO",
+    "INDIRIZZO": "VIA MONTANARA 15, 43124 PARME",
+    "TEL": "TÉL 0521 1962073",
+    "ORARI": {
+      "TITLE": "HEURES D'OUVERTURE",
+      "PRANZO": {
+        "LABEL": "DÉJEUNER",
+        "ORARIO": "TOUS LES JOURS : 12:00–15:00"
+      },
+      "CENA": {
+        "LABEL": "DÎNER",
+        "ORARIO_FERIALI": "DIMANCHE – VENDREDI : 19:00 – 23:00",
+        "ORARIO_SABATO": "SAMEDI : 19:00 – 00:00"
+      }
+    },
+    "SOCIAL": {
+      "TITLE": "SUIVEZ-NOUS SUR",
+      "INSTAGRAM": "INSTAGRAM"
+    }
+  },
+  "FOOTER": {
+    "RAGIONE_SOCIALE": "NILOSA S.R.L",
+    "INDIRIZZO": "Via Marco Dell'Arpa 2 - 43121 Parma",
+    "PIVA": "TVA : 03131530341",
+    "TEL": "TÉL : 0521 1962073",
+    "INSTAGRAM": "Instagram"
+  }
+}

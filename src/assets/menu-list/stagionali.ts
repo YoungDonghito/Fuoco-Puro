@@ -1,30 +1,10 @@
 import { Piatto } from "../../app/model/menu.model";
 
 export const STAGIONALI: Piatto[] = [
-    {
-        nome: 'SALSICCIA E FRIARIELLI',
-        ingredienti: 'provola affumicata, salsiccia, friarielli napoletani',
-        prezzo: '11€'
-    },
-    {
-       nome:'RAGù E POLPETTINE',
-       ingredienti: 'mozzarella, ragù napoletano, ricottina di bufala, polpettine di manzo', 
-       prezzo: '12€'
-    },
-    {
-        nome:'ANGRISELLA',
-        ingredienti: 'provola affumicata, scarole olive e capperi, scaglie di pecorino, pinoli tostati',
-        prezzo: '11,50€'
-    },
-    {
-        nome:'CACIO E PEPE',
-        ingredienti: 'mozzarella, pecorino, pepe nero in grani macinato e burrata di bufala',
-        prezzo: '11€'
-    },
-    {
-        nome:'PUVERELLA',
-        ingredienti: 'mozzarella, peperoni melanzane zucchine saltate in padella e basilico',
-        prezzo: '11€'
-    }
+    { nome: 'MENU.STAGIONALI.SALSICCIA_E_FRIARIELLI.NOME', ingredienti: 'MENU.STAGIONALI.SALSICCIA_E_FRIARIELLI.INGREDIENTI', prezzo: '11€' },
+    { nome: 'MENU.STAGIONALI.RAGU_E_POLPETTINE.NOME', ingredienti: 'MENU.STAGIONALI.RAGU_E_POLPETTINE.INGREDIENTI', prezzo: '12€' },
+    { nome: 'MENU.STAGIONALI.ANGRISELLA.NOME', ingredienti: 'MENU.STAGIONALI.ANGRISELLA.INGREDIENTI', prezzo: '11,50€' },
+    { nome: 'MENU.STAGIONALI.CACIO_E_PEPE.NOME', ingredienti: 'MENU.STAGIONALI.CACIO_E_PEPE.INGREDIENTI', prezzo: '11€' },
+    { nome: 'MENU.STAGIONALI.PUVERELLA.NOME', ingredienti: 'MENU.STAGIONALI.PUVERELLA.INGREDIENTI', prezzo: '11€' }
 
 ];

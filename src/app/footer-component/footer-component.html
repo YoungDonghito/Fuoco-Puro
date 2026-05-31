@@ -1,25 +1,19 @@
 <footer class="bg-[#B93622] px-8 py-12 text-[#FCFBF7] font-sans">
   <div class="mx-auto grid max-w-6xl grid-cols-1 gap-8 md:grid-cols-2">
     <div class="text-sm leading-relaxed">
-      <p class="font-sans">NILOSA S.R.L</p>
-      <p>Via Marco Dell'Arpa 2 - 43121 Parma</p>
-      <p>Partita IVA: 03131530341</p>
-      <p>TEL: 0521 1962073</p>
+      <p class="font-sans">{{ 'FOOTER.RAGIONE_SOCIALE' | translate }}</p>
+      <p>{{ 'FOOTER.INDIRIZZO' | translate }}</p>
+      <p>{{ 'FOOTER.PIVA' | translate }}</p>
+      <p>{{ 'FOOTER.TEL' | translate }}</p>
     </div>
     <div class="flex flex-col gap-2 md:items-end">
-      <!-- <p class="text-sm font-sans uppercase">Seguici su:</p> -->
       <div class="flex flex-col gap-1 text-sm md:items-end">
-        <!--         
-        <a href="#" class="font-s flex items-center gap-2 hover:underline">
-          <span>Facebook</span>
-        </a>
-        -->
         <a
           href="https://www.instagram.com/fuocopuro_montanara?igsh=MTlsdjM5YXA4eTZycg=="
           target="_blank"
           class="font-sans flex items-center gap-2 hover:underline"
         >
-          <span>Instagram</span>
+          <span>{{ 'FOOTER.INSTAGRAM' | translate }}</span>
         </a>
       </div>
     </div>

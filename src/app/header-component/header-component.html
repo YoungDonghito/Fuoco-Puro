@@ -18,17 +18,46 @@
   </div>
 
   <div
-    class="antialiased hidden gap-8 text-sm font-condensed uppercase md:text-[24px] md:flex text-[#B93622]"
+    class="antialiased hidden gap-8 text-sm font-condensed uppercase md:text-[24px] md:flex text-[#B93622] items-center"
   >
-    <a routerLink="/menu" (click)="goToMenu()" class="cursor-pointer transition hover:opacity-70"
-      >Menu</a
-    >
+    <a routerLink="/menu" (click)="goToMenu()" class="cursor-pointer transition hover:opacity-70">
+      {{ 'HEADER.MENU' | translate }}
+    </a>
     <a
       routerLink="/contatti"
       (click)="goToContatti()"
       class="cursor-pointer transition hover:opacity-70"
-      >Contatti</a
     >
+      {{ 'HEADER.CONTATTI' | translate }}
+    </a>
+
+    <!-- Language switcher desktop -->
+    <div class="relative">
+      <button
+        (click)="toggleLangMenu()"
+        class="flex items-center gap-1 cursor-pointer transition hover:opacity-70 text-[18px] md:text-[20px]"
+      >
+        {{ langService.currentLang() | uppercase }}
+        <svg class="h-4 w-4 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+      @if (isLangOpen()) {
+        <div
+          class="absolute right-0 top-full mt-2 bg-[#FCFBF7] shadow-md border border-[#B93622]/20 min-w-[70px] z-50"
+        >
+          @for (lang of langService.languages; track lang) {
+            <button
+              (click)="selectLang(lang)"
+              class="block w-full px-4 py-2 text-left text-sm font-condensed uppercase text-[#B93622] transition hover:bg-[#B93622]/10"
+              [class.font-bold]="langService.currentLang() === lang"
+            >
+              {{ lang | uppercase }}
+            </button>
+          }
+        </div>
+      }
+    </div>
   </div>
 
   <button
@@ -83,9 +112,26 @@
         routerLink="/menu"
         (click)="goToMenu()"
         class="cursor-pointer transition hover:text-gray-200"
-        >Menu</a
       >
-      <a (click)="goToContatti()" class="cursor-pointer transition hover:text-gray-200">Contatti</a>
+        {{ 'HEADER.MENU' | translate }}
+      </a>
+      <a (click)="goToContatti()" class="cursor-pointer transition hover:text-gray-200">
+        {{ 'HEADER.CONTATTI' | translate }}
+      </a>
+    </div>
+
+    <!-- Language switcher mobile -->
+    <div class="flex justify-center gap-8 pb-6">
+      @for (lang of langService.languages; track lang) {
+        <button
+          (click)="selectLang(lang)"
+          class="font-condensed uppercase text-[#FCFBF7] text-xl transition hover:opacity-70"
+          [class.underline]="langService.currentLang() === lang"
+          [class.font-bold]="langService.currentLang() === lang"
+        >
+          {{ lang | uppercase }}
+        </button>
+      }
     </div>
 
     <div
@@ -106,12 +152,12 @@
             d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
           />
         </svg>
-        0521 1962073
+        {{ 'HEADER.TEL' | translate }}
       </a>
 
       <div class="flex items-center gap-4 font-sans font-bold">
-        <span>Seguici:</span>
-        <!-- <a href="#" class="transition hover:text-gray-200">
+        <span>{{ 'HEADER.SEGUICI' | translate }}</span>
+        <a href="#" class="transition hover:text-gray-200">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-6 w-6"
@@ -122,9 +168,10 @@
               d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
             />
           </svg>
-        </a> -->
+        </a>
         <a
-          href="https://www.instagram.com/fuocopuro_montanara?igsh=MTlsdjM5YXA4eTZycg==" target="_blank"
+          href="https://www.instagram.com/fuocopuro_montanara?igsh=MTlsdjM5YXA4eTZycg=="
+          target="_blank"
           class="transition hover:text-gray-200"
         >
           <svg

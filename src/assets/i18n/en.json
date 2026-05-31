@@ -1,0 +1,391 @@
+{
+  "HEADER": {
+    "MENU": "Menu",
+    "CONTATTI": "Contacts",
+    "TEL": "0521 1962073",
+    "SEGUICI": "Follow us:"
+  },
+  "HOME": {
+    "HERO": {
+      "TITLE_L1": "Neapolitan Pizza,",
+      "TITLE_L2": "Parthenopean Cuisine",
+      "CTA": "Discover the Menu"
+    },
+    "CLAIM": "FUOCOPURO IS A NEAPOLITAN PIZZERIA THAT BRINGS THE PARTHENOPEAN TRADITION TO PARMA, MADE OF GENUINE DOUGHS, AUTHENTIC INGREDIENTS AND RESPECT FOR PIZZA'S TIMING. OUR CUISINE IS BORN FROM SIMPLICITY: FEW RULES, DONE WELL.",
+    "MAPPA": {
+      "TITLE_L1": "Come find us at",
+      "TITLE_L2": "Strada Montanara 15, Parma",
+      "CTA": "Where to park"
+    }
+  },
+  "MENU": {
+    "TITLE": "MENU",
+    "AGGIORNAMENTO": "Menu being updated...",
+    "SCIUE": {
+      "TITOLO": "SCIUÈ SCIUÈ",
+      "TOCCHETTI_DI_CRUDO": { "NOME": "RAW HAM BITES IN OIL WITH CROUTONS" },
+      "OLIVE_E_LUPINI": { "NOME": "SEASONED OLIVES AND LUPINS" }
+    },
+    "ANTIPASTI": {
+      "TITOLO": "STARTERS",
+      "BRUSCHETTA": {
+        "NOME": "TOMATO AND OREGANO BRUSCHETTA",
+        "INGREDIENTI": "white bread, vine tomato, basil, extra virgin olive oil, young garlic and oregano"
+      },
+      "I_BACI_DI_SOPHIA": {
+        "NOME": "I BACI DI SOPHIA",
+        "INGREDIENTI_INTRO": "3 stuffed montanare:",
+        "INGREDIENTI_1": "1) Neapolitan ragù and beef meatballs",
+        "INGREDIENTI_2": "2) Knife-point pork sausage and Neapolitan friarielli",
+        "INGREDIENTI_3": "3) Neapolitan genovese"
+      },
+      "FRITTATINA_DI_PASTA": {
+        "NOME": "NEAPOLITAN PASTA FRITTATA",
+        "INGREDIENTI": "with béchamel, stuffed with minced meat and peas"
+      },
+      "PARMIGIANA_DI_MELANZANE": {
+        "NOME": "AUBERGINE PARMIGIANA",
+        "INGREDIENTI": "with classic Neapolitan ragù, smoked provola and basil"
+      },
+      "MOZZARELLA_IN_CARROZZA": {
+        "NOME": "MOZZARELLA IN CARROZZA",
+        "INGREDIENTI": "sandwich bread stuffed with melting mozzarella"
+      },
+      "IL_CUOPPO": {
+        "NOME": "IL CUOPPO – NEAPOLITAN MIXED FRIES FOR 2",
+        "INGREDIENTI": "salt and pepper potato croquettes, rice arancini, montanare with tomato, parmesan and basil, seaweed fritters and paccheri stuffed with buffalo ricotta"
+      },
+      "ZEPPOLE_ALLE_ALGHE": {
+        "NOME": "SEAWEED ZEPPOLE",
+        "INGREDIENTI": "sea lettuce dough fritters with salt and pepper"
+      },
+      "LA_SCAMPAGNATA": {
+        "NOME": "LA SCAMPAGNATA – FOR 2, SHARING BOARD OF:",
+        "INGREDIENTI_1": "Cured meats: Bologna mortadella IGP, Parma cured ham DOP",
+        "INGREDIENTI_2": "Cheeses: Puglia burrata, aged cacioricotta",
+        "INGREDIENTI_3": "Beef meatballs and grilled artichoke"
+      }
+    },
+    "MOZZARELLE": {
+      "TITOLO": "BUFFALO MOZZARELLA DOP",
+      "CON_POMODORO_RAMATO": {
+        "NOME": "WITH VINE TOMATO AND BASIL (115g)",
+        "INGREDIENTI": "DOP extra virgin olive oil, oregano and basil"
+      },
+      "CON_BUFALA_E_FRIARIELLI": { "NOME": "WITH BUFFALO AND FRIARIELLI (115g)" },
+      "CON_PROSCIUTTO_DI_PARMA": {
+        "NOME": "WITH PARMA HAM DOP, MELON AND CHERRY TOMATOES (230g)",
+        "INGREDIENTI": "for 2 people – DOP extra virgin olive oil, grilled bread mix and oregano"
+      },
+      "CON_POMODORINI_E_RUCOLA": {
+        "NOME": "WITH CHERRY TOMATOES AND ROCKET (230g)",
+        "INGREDIENTI": "for 2 people – DOP extra virgin olive oil and oregano"
+      }
+    },
+    "INSALATONE": {
+      "TITOLO": "LARGE SALADS",
+      "PURO_DETOX": {
+        "NOME": "PURO – DETOX",
+        "INGREDIENTI": "green salad, fennel, celery, lupins, apple, pineapple, pumpkin seeds, balsamic vinegar reduction and extra virgin olive oil"
+      },
+      "CIACIELLA": {
+        "NOME": "CIACIELLA",
+        "INGREDIENTI": "green salad, rocket, beef strips, champignon mushrooms, grilled courgettes, sun-dried tomatoes and parmesan shavings"
+      },
+      "PROSCIUTTELLA": {
+        "NOME": "PROSCIUTTELLA",
+        "INGREDIENTI": "rocket, radicchio, green salad, buffalo mozzarella DOP, Parma cured ham DOP in oil, diced melon, balsamic glaze and croutons"
+      },
+      "CESARONA": {
+        "NOME": "CESARONA",
+        "INGREDIENTI": "green salad, radicchio, rocket, grilled chicken breast, crispy bacon, parmesan shavings, black olives, toasted sesame and caesar dressing"
+      },
+      "TONNARA": {
+        "NOME": "TONNARA",
+        "INGREDIENTI": "green salad, rocket, tuna fillets, steamed potatoes, green beans, hard-boiled eggs, vine tomato, green olives and wholegrain frisella"
+      },
+      "BRACETTA": {
+        "NOME": "BRACETTA",
+        "INGREDIENTI": "green salad, grilled vegetables, rocket, buffalo caciottella, vine tomato, green olives and yogurt dressing"
+      }
+    },
+    "PIZZE": {
+      "TITOLO": "PIZZAS",
+      "MARINARA": {
+        "NOME": "MARINARA",
+        "INGREDIENTI": "San Marzano DOP tomatoes, garlic, oregano, Sorrento Peninsula DOP extra virgin olive oil, basil"
+      },
+      "MARGHERITA": { "NOME": "MARGHERITA", "INGREDIENTI": "tomato, mozzarella, basil" },
+      "MARGHERITA_PROVOLA_E_PEPE": {
+        "NOME": "MARGHERITA WITH SMOKED PROVOLA AND PEPPER",
+        "INGREDIENTI": "tomato, smoked provola, parmesan, pepper and basil"
+      },
+      "COSACCA": {
+        "NOME": "COSACCA",
+        "INGREDIENTI": "Neapolitan ancient tomato fillet, Bagnoli pecorino, basil"
+      },
+      "DIAVOLA": { "NOME": "DIAVOLA", "INGREDIENTI": "tomato, mozzarella, spicy salami and basil" },
+      "NAPOLI": { "NOME": "NAPOLI", "INGREDIENTI": "tomato, mozzarella, anchovies, black olives and capers" },
+      "BIANCA_COTTO_E_FUNGHI": {
+        "NOME": "WHITE PIZZA WITH HAM AND MUSHROOMS",
+        "INGREDIENTI": "mozzarella, fresh cream, champignon mushrooms, cooked ham and basil"
+      },
+      "LA_DOC": {
+        "NOME": "LA DOC",
+        "INGREDIENTI": "tomato, buffalo mozzarella DOP and basil (finished with Sorrento Peninsula DOP extra virgin olive oil)"
+      },
+      "FUOCO_PURO": {
+        "NOME": "FUOCO PURO",
+        "INGREDIENTI": "Agerola smoked provola, San Marzano DOP, Piennolo del Vesuvio DOP, yellow datterini from Battipaglia and aged cacioricotta shavings"
+      },
+      "CAPRICCIOSA": {
+        "NOME": "CAPRICCIOSA",
+        "INGREDIENTI": "tomato, mozzarella, champignon mushrooms, cooked ham, artichokes and black olives"
+      },
+      "PARMENSE": {
+        "NOME": "PARMENSE",
+        "INGREDIENTI": "mozzarella, Parma ham DOP, rocket and parmesan shavings"
+      },
+      "CINQUE_FORMAGGI": {
+        "NOME": "FIVE CHEESES",
+        "INGREDIENTI": "smoked provola, buffalo caciotta, gorgonzola, emmental and parmesan wafer"
+      },
+      "DONNA_LAURA": {
+        "NOME": "DONNA LAURA",
+        "INGREDIENTI": "smoked provola, sausage, gratin peppers, olives and capers"
+      },
+      "MORTADELLA_E_PANZEROTTO": {
+        "NOME": "MORTADELLA AND POTATO CROQUETTE",
+        "INGREDIENTI": "smoked provola, potato croquette, mortadella IGP and pistachio crumble"
+      },
+      "TONNO_E_CIPOLLA_ROSSA": {
+        "NOME": "TUNA AND RED ONION",
+        "INGREDIENTI": "tomato, mozzarella, tuna in oil, red onion and black olives"
+      },
+      "LA_CAFONA": {
+        "NOME": "LA CAFONA",
+        "INGREDIENTI": "mozzarella, sausage, rosemary oven-baked potatoes"
+      }
+    },
+    "STAGIONALI": {
+      "TITOLO": "SEASONAL PIZZAS",
+      "SALSICCIA_E_FRIARIELLI": {
+        "NOME": "SAUSAGE AND FRIARIELLI",
+        "INGREDIENTI": "smoked provola, sausage, Neapolitan friarielli"
+      },
+      "RAGU_E_POLPETTINE": {
+        "NOME": "RAGÙ AND MEATBALLS",
+        "INGREDIENTI": "mozzarella, Neapolitan ragù, buffalo ricotta, beef meatballs"
+      },
+      "ANGRISELLA": {
+        "NOME": "ANGRISELLA",
+        "INGREDIENTI": "smoked provola, escarole with olives and capers, pecorino shavings, toasted pine nuts"
+      },
+      "CACIO_E_PEPE": {
+        "NOME": "CACIO E PEPE",
+        "INGREDIENTI": "mozzarella, pecorino, ground black peppercorns and buffalo burrata"
+      },
+      "PUVERELLA": {
+        "NOME": "PUVERELLA",
+        "INGREDIENTI": "mozzarella, pan-fried peppers, aubergines, courgettes and basil"
+      }
+    },
+    "RIPIENE": {
+      "TITOLO": "STUFFED PIZZAS",
+      "CALZONE_AL_COTTO": {
+        "NOME": "CALZONE WITH COOKED HAM",
+        "INGREDIENTI": "buffalo ricotta, cooked ham, mozzarella, tomato and pepper"
+      },
+      "CALZONE_ALLA_SCAROLA": {
+        "NOME": "CALZONE WITH ESCAROLE",
+        "INGREDIENTI": "smoked provola, escarole, olives, capers, toasted pine nuts and parmesan"
+      },
+      "CALZONE_AL_SALAME": {
+        "NOME": "CALZONE WITH SALAMI",
+        "INGREDIENTI": "buffalo ricotta, Naples salami, mozzarella, tomato and pepper"
+      },
+      "SOLE_LUNA": {
+        "NOME": "SOLE LUNA",
+        "INGREDIENTI": "half stuffed with buffalo ricotta, tomato, mozzarella, parmesan, pepper, Naples salami; half with mozzarella, Parma ham DOP"
+      }
+    },
+    "FRITTA": {
+      "TITOLO": "FRIED PIZZA",
+      "MBUTTANATA": { "NOME": "'MBUTTANATA", "INGREDIENTI": "mozzarella, tomato, pepper and basil" },
+      "CHICCHINESE": {
+        "NOME": "CHICCHINESE",
+        "INGREDIENTI": "smoked provola, buffalo ricotta, Naples salami, parmesan, basil and pepper"
+      },
+      "CICCIOLONA": {
+        "NOME": "CICCIOLONA",
+        "INGREDIENTI": "smoked provola, tomato, Neapolitan cicoli, buffalo ricotta DOP, basil and pepper"
+      },
+      "SCARULELLA": {
+        "NOME": "SCARULELLA",
+        "INGREDIENTI": "smoked provola, escarole, olives, capers, toasted pine nuts and basil"
+      }
+    },
+    "INTEGRALI": {
+      "TITOLO": "WHOLEGRAIN PIZZAS",
+      "CARCIOFINA": {
+        "NOME": "CARCIOFINA (MULTIGRAIN FLOUR)",
+        "INGREDIENTI": "mozzarella, artichoke cream; finished: grilled artichoke, caramelised onion, crispy Parma ham DOP"
+      },
+      "BUFALA_E_PARMA": {
+        "NOME": "BUFFALO AND PARMA (MULTIGRAIN FLOUR)",
+        "INGREDIENTI": "buffalo mozzarella DOP, cherry tomatoes, Parma ham DOP, rocket, parmesan wafer"
+      },
+      "PUMMAROLA_MARINARA": {
+        "NOME": "PUMMAROLA.. MARINARA WITH 3 TOMATOES (WHOLEGRAIN FLOUR)",
+        "INGREDIENTI": "San Marzano DOP, Piennolo del Vesuvio DOP, yellow datterini from Battipaglia, black olives, capers, young garlic and oregano"
+      },
+      "CREMA_DI_RADICCHIO_E_GORGONZOLA": {
+        "NOME": "RADICCHIO CREAM AND GORGONZOLA (WHOLEGRAIN FLOUR)",
+        "INGREDIENTI": "mozzarella, gorgonzola, radicchio cream; finished: crispy bacon"
+      }
+    },
+    "SPAGHETTI": {
+      "TITOLO": "SPAGHETTI FROM GRAGNANO",
+      "CON_ACCIUGHE": {
+        "NOME": "BRONZE-DRAWN SPAGHETTI WITH CANTABRIAN ANCHOVIES, YELLOW CHERRY TOMATOES, OLIVES AND CAPERS",
+        "INGREDIENTI": "with garlic, oil, chilli and parsley"
+      },
+      "CON_POMODORINI": {
+        "NOME": "BRONZE-DRAWN SPAGHETTI WITH RED CHERRY TOMATOES, BASIL AND DOP EXTRA VIRGIN OLIVE OIL"
+      },
+      "CON_COZZE_E_VONGOLE": {
+        "NOME": "BRONZE-DRAWN SPAGHETTI WITH MUSSELS AND CLAMS",
+        "INGREDIENTI": "with garlic, oil and parsley, finished with cherry tomatoes"
+      }
+    },
+    "PASTA": {
+      "TITOLO": "FRESH DURUM WHEAT SEMOLINA PASTA",
+      "GNOCCHI_DI_PATATE": {
+        "NOME": "POTATO GNOCCHI ALLA SORRENTINA",
+        "INGREDIENTI": "oven-gratinated with smoked provola, corbarino tomato, parmesan and basil"
+      },
+      "PACCHERI_ALLA_GENOVESE": {
+        "NOME": "PACCHERI ALLA GENOVESE NAPOLETANA",
+        "INGREDIENTI": "with white beef and stewed onion ragù, parmesan and basil"
+      },
+      "MANFREDI_RICOTTA_E_RAGU": {
+        "NOME": "MANFREDI WITH RICOTTA AND NEAPOLITAN RAGÙ",
+        "INGREDIENTI": "with buffalo ricotta, braised beef in Neapolitan ragù, parmesan and basil"
+      },
+      "PASTA_PATATE_E_PROVOLA": {
+        "NOME": "PASTA, POTATOES AND PROVOLA IN THE SHIRT",
+        "INGREDIENTI": "in a clay pot with potatoes and guanciale, creamed with smoked provola"
+      }
+    },
+    "CARNE": {
+      "TITOLO": "MEAT",
+      "SALSICCIA_E_FRIARIELLI": {
+        "NOME": "SAUSAGE AND FRIARIELLI",
+        "INGREDIENTI": "knife-point sausage and Neapolitan friarielli"
+      },
+      "PULLICINO": {
+        "NOME": "PULLICINO",
+        "INGREDIENTI": "chicken breast (250g), sautéed porcini, crispy bacon, toasted hazelnuts, rocket"
+      },
+      "HAMBURGER_DI_CHIANINA": {
+        "NOME": "CHIANINA BEEF BURGER*",
+        "INGREDIENTI": "burger (200g), oven-baked potatoes"
+      },
+      "POLPETTE_DELLA_NONNA": {
+        "NOME": "GRANDMA'S MEATBALLS",
+        "INGREDIENTI": "beef* in Neapolitan ragù, bread, parmesan and basil"
+      }
+    },
+    "CONTORNI": {
+      "TITOLO": "SIDE DISHES",
+      "MELANZANE_A_FUNGHETTO": { "NOME": "AUBERGINES A FUNGHETTO" },
+      "PATATE_AL_FORNO": { "NOME": "OVEN-BAKED POTATOES" },
+      "FRIARIELLI_NAPOLETANI": { "NOME": "NEAPOLITAN FRIARIELLI IN A PAN" },
+      "PATATE_FRITTE": { "NOME": "FRENCH FRIES*" },
+      "SCAROLE_OLIVE_E_CAPPERI": { "NOME": "ESCAROLE, OLIVES AND CAPERS" },
+      "MIX_DI_POMODORI": { "NOME": "MIXED TOMATOES, RED ONION, ROCKET AND OREGANO" }
+    },
+    "CANTINA": {
+      "TITOLO": "WINE CELLAR",
+      "VINI_BIANCHI": {
+        "CATEGORIA": "WHITE WINES",
+        "LACRYMA_CHRISTI_BIANCO": { "NOME": "LACRYMA CHRISTI DEL VESUVIO DOC", "INGREDIENTI": "Enodelta" },
+        "FALANGHINA_DEL_SANNIO": { "NOME": "FALANGHINA DEL SANNIO DOP" },
+        "GRECO_DI_TUFO": { "NOME": "GRECO DI TUFO DOCG" },
+        "FIANO_DI_AVELLINO": { "NOME": "FIANO DI AVELLINO DOCG" },
+        "FALANGHINA_CAMPANIA": { "NOME": "FALANGHINA CAMPANIA IGP", "INGREDIENTI": "naturally sparkling" },
+        "FALANGHINA_POMPEIANO": { "NOME": "FALANGHINA POMPEIANO IGP" }
+      },
+      "VINI_ROSSI": {
+        "CATEGORIA": "RED WINES",
+        "LACRYMA_CHRISTI_ROSSO": { "NOME": "LACRYMA CHRISTI DEL VESUVIO DOP", "INGREDIENTI": "Enodelta" },
+        "AGLIANICO_SANNIO": { "NOME": "AGLIANICO SANNIO DOP" },
+        "ROSSO_POMPEIANO": { "NOME": "ROSSO POMPEIANO", "INGREDIENTI": "igp piedirosso – per 'e palummo" },
+        "GRAGNANO_DOC": { "NOME": "GRAGNANO DOC PENISOLA SORRENTINA", "INGREDIENTI": "naturally sparkling" },
+        "AGLIANICO_POMPEIANO": { "NOME": "AGLIANICO POMPEIANO IGP" }
+      },
+      "VINI_ROSE": {
+        "CATEGORIA": "ROSÉ WINES",
+        "LACRYMA_CHRISTI_ROSE": { "NOME": "LACRYMA CHRISTI DEL VESUVIO DOC" }
+      },
+      "VINO_DELLA_CASA": {
+        "CATEGORIA": "HOUSE WINE",
+        "ROSSO_E_BIANCO_VIVACE": { "NOME": "SPARKLING RED AND WHITE" }
+      },
+      "SPUMANTI": {
+        "CATEGORIA": "SPARKLING WINES",
+        "FERDINANDVS_I": { "NOME": "FERDINANDVS I", "INGREDIENTI": "Asprinio di Aversa extra brut – vintage cuvée" },
+        "PROSECCO": { "NOME": "PROSECCO" },
+        "FRANCIACORTA_BRUT": { "NOME": "FRANCIACORTA BRUT" }
+      },
+      "APERITIVI": {
+        "CATEGORIA": "APERITIFS",
+        "PROSECCO_AL_CALICE": { "NOME": "PROSECCO (BY THE GLASS)" },
+        "APEROL_CAMPARI_SPRITZ": { "NOME": "APEROL / CAMPARI SPRITZ" },
+        "SARTI_SPRITZ": { "NOME": "SARTI SPRITZ", "INGREDIENTI": "with mango and passion fruit" }
+      }
+    },
+    "BIRRE": {
+      "TITOLO": "BEERS",
+      "STELLA_ARTOIS": { "NOME": "STELLA ARTOIS BLONDE" },
+      "LEFFE_ROSSA": { "NOME": "LEFFE ROSSA DOUBLE MALT" },
+      "BIRRE_IN_BOTTIGLIA": { "CATEGORIA": "BOTTLED BEERS" },
+      "BIRRE_ARTIGIANALI": { "NOME": "CRAFT BEERS (33cl)" }
+    },
+    "BIBITE": {
+      "TITOLO": "DRINKS",
+      "COCA_COLA_FANTA": { "NOME": "COCA COLA, FANTA", "INGREDIENTI": "draught glass 40cl" },
+      "GAZZOSA_BIO": { "NOME": "ORGANIC LEMONADE – ORGANIC CHINOTTO", "INGREDIENTI": "bottle 35.5cl" },
+      "ACQUA_MINERALE": { "NOME": "MINERAL WATER", "INGREDIENTI": "bottle 50cl" }
+    }
+  },
+  "CONTATTI": {
+    "TITLE": "CONTACTS",
+    "NOME": "FUOCOPURO",
+    "INDIRIZZO": "VIA MONTANARA 15, 43124 PARMA",
+    "TEL": "TEL 0521 1962073",
+    "ORARI": {
+      "TITLE": "OPENING HOURS",
+      "PRANZO": {
+        "LABEL": "LUNCH",
+        "ORARIO": "EVERY DAY: 12:00–15:00"
+      },
+      "CENA": {
+        "LABEL": "DINNER",
+        "ORARIO_FERIALI": "SUNDAY – FRIDAY: 19:00 – 23:00",
+        "ORARIO_SABATO": "SATURDAY: 19:00 – 00:00"
+      }
+    },
+    "SOCIAL": {
+      "TITLE": "FOLLOW US",
+      "INSTAGRAM": "INSTAGRAM"
+    }
+  },
+  "FOOTER": {
+    "RAGIONE_SOCIALE": "NILOSA S.R.L",
+    "INDIRIZZO": "Via Marco Dell'Arpa 2 - 43121 Parma",
+    "PIVA": "VAT: 03131530341",
+    "TEL": "TEL: 0521 1962073",
+    "INSTAGRAM": "Instagram"
+  }
+}

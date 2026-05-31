@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
 import { SezioneMenu } from '../model/menu.model';
 
 import { PIZZE } from '../../assets/menu-list/pizze';
@@ -22,27 +23,27 @@ import { BIBITE } from '../../assets/menu-list/bibite';
 @Component({
   selector: 'app-menu',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, TranslateModule],
   templateUrl: './menu-component.html',
 })
 export class MenuComponent {
   menu: SezioneMenu[] = [
-    { id: 'sciue', titolo: 'SCIUÈ SCIUÈ', aperto: false, piatti: SCIUE },
-    { id: 'antipasti', titolo: 'ANTIPASTI', aperto: false, piatti: ANTIPASTI },
-    { id: 'mozzarelle', titolo: 'MOZZARELLA DI BUFALA DOP', aperto: false, piatti: MOZZARELLE },
-    { id: 'insalatone', titolo: 'INSALATONE', aperto: false, piatti: INSALATONE },
-    { id: 'pizze', titolo: 'PIZZE', aperto: false, piatti: PIZZE },
-    { id: 'stagionali', titolo: 'PIZZE STAGIONALI', aperto: false, piatti: STAGIONALI },
-    { id: 'ripiene', titolo: 'PIZZE RIPIENE', aperto: false, piatti: RIPIENE },
-    { id: 'fritta', titolo: 'PIZZA FRITTA', aperto: false, piatti: PIZZE_FRITTE },
-    { id: 'integrali', titolo: 'PIZZE INTEGRALI', aperto: false, piatti: PIZZE_INTEGRALI },
-    { id: 'spaghetti', titolo: 'SPAGHETTI DI GRAGNANO', aperto: false, piatti: SPAGHETTI },
-    { id: 'pasta', titolo: 'PASTA FRESCA DI SEMOLA DI GRANO DURO', aperto:false, piatti: PASTA},
-    { id: 'carne', titolo: 'CARNE', aperto: false, piatti: CARNE },
-    { id: 'contorni', titolo: 'CONTORNI', aperto: false, piatti: CONTORNI },
-    { id: 'cantina', titolo: 'CANTINA', aperto: false, piatti: CANTINA },
-    { id: 'birre', titolo: 'BIRRE', aperto: false, piatti:  BIRRE},
-    { id: 'bibite', titolo: 'BIBITE', aperto: false, piatti: BIBITE },
+    { id: 'sciue', titolo: 'MENU.SCIUE.TITOLO', aperto: false, piatti: SCIUE },
+    { id: 'antipasti', titolo: 'MENU.ANTIPASTI.TITOLO', aperto: false, piatti: ANTIPASTI },
+    { id: 'mozzarelle', titolo: 'MENU.MOZZARELLE.TITOLO', aperto: false, piatti: MOZZARELLE },
+    { id: 'insalatone', titolo: 'MENU.INSALATONE.TITOLO', aperto: false, piatti: INSALATONE },
+    { id: 'pizze', titolo: 'MENU.PIZZE.TITOLO', aperto: false, piatti: PIZZE },
+    { id: 'stagionali', titolo: 'MENU.STAGIONALI.TITOLO', aperto: false, piatti: STAGIONALI },
+    { id: 'ripiene', titolo: 'MENU.RIPIENE.TITOLO', aperto: false, piatti: RIPIENE },
+    { id: 'fritta', titolo: 'MENU.FRITTA.TITOLO', aperto: false, piatti: PIZZE_FRITTE },
+    { id: 'integrali', titolo: 'MENU.INTEGRALI.TITOLO', aperto: false, piatti: PIZZE_INTEGRALI },
+    { id: 'spaghetti', titolo: 'MENU.SPAGHETTI.TITOLO', aperto: false, piatti: SPAGHETTI },
+    { id: 'pasta', titolo: 'MENU.PASTA.TITOLO', aperto: false, piatti: PASTA },
+    { id: 'carne', titolo: 'MENU.CARNE.TITOLO', aperto: false, piatti: CARNE },
+    { id: 'contorni', titolo: 'MENU.CONTORNI.TITOLO', aperto: false, piatti: CONTORNI },
+    { id: 'cantina', titolo: 'MENU.CANTINA.TITOLO', aperto: false, piatti: CANTINA },
+    { id: 'birre', titolo: 'MENU.BIRRE.TITOLO', aperto: false, piatti: BIRRE },
+    { id: 'bibite', titolo: 'MENU.BIBITE.TITOLO', aperto: false, piatti: BIBITE },
 
   ];
 

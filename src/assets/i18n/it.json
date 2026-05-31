@@ -1,0 +1,483 @@
+{
+  "HEADER": {
+    "MENU": "Menu",
+    "CONTATTI": "Contatti",
+    "TEL": "0521 1962073",
+    "SEGUICI": "Seguici:"
+  },
+  "HOME": {
+    "HERO": {
+      "TITLE_L1": "Pizza Napoletana,",
+      "TITLE_L2": "Cucina Partenopea",
+      "CTA": "Scopri il Menu"
+    },
+    "CLAIM": "FUOCOPURO È UNA PIZZERIA NAPOLETANA CHE PORTA A PARMA LA TRADIZIONE PARTENOPEA, FATTA DI IMPASTI GENUINI, INGREDIENTI AUTENTICI E RISPETTO PER I TEMPI DELLA PIZZA. LA NOSTRA CUCINA NASCE DALLA SEMPLICITÀ: POCHE REGOLE E FATTE BENE.",
+    "MAPPA": {
+      "TITLE_L1": "Vieni a trovarci in",
+      "TITLE_L2": "Strada Montanara 15, Parma",
+      "CTA": "Dove parcheggiare"
+    }
+  },
+  "MENU": {
+    "TITLE": "MENU",
+    "AGGIORNAMENTO": "Menu in aggiornamento...",
+    "SCIUE": {
+      "TITOLO": "SCIUÈ SCIUÈ",
+      "TOCCHETTI_DI_CRUDO": {
+        "NOME": "TOCCHETTI DI CRUDO IN OLIO CON CROSTINI"
+      },
+      "OLIVE_E_LUPINI": {
+        "NOME": "OLIVE E LUPINI CONDITI"
+      }
+    },
+    "ANTIPASTI": {
+      "TITOLO": "ANTIPASTI",
+      "BRUSCHETTA": {
+        "NOME": "BRUSCHETTA POMODORO E ORIGANO",
+        "INGREDIENTI": "pane bianco, pomodoro ramato, basilico, olio evo, aglietto e origano"
+      },
+      "I_BACI_DI_SOPHIA": {
+        "NOME": "I BACI DI SOPHIA",
+        "INGREDIENTI_INTRO": "3 montanare ripiene:",
+        "INGREDIENTI_1": "1) Ragù napoletano e polpettine di manzo",
+        "INGREDIENTI_2": "2) Salsiccia di maiale a punta di coltello e friarielli napoletani",
+        "INGREDIENTI_3": "3) Genovese napoletana"
+      },
+      "FRITTATINA_DI_PASTA": {
+        "NOME": "FRITTATINA DI PASTA NAPOLETANE",
+        "INGREDIENTI": "con besciamella ripiene di carne macinata e piselli"
+      },
+      "PARMIGIANA_DI_MELANZANE": {
+        "NOME": "PARMIGINANA DI MELANZANE",
+        "INGREDIENTI": "con ragù classico napoletano, provola affumicata e basilico"
+      },
+      "MOZZARELLA_IN_CARROZZA": {
+        "NOME": "MOZZARELLA IN CARROZZA",
+        "INGREDIENTI": "pane in cassetta ripieno di mozzarella filante"
+      },
+      "IL_CUOPPO": {
+        "NOME": "IL CUOPPO - FRITTO MISTO NAPOLETANO PER 2 PERSONE",
+        "INGREDIENTI": "panzerotti di patate sale e pepe, arancini di riso, montanare al pomodoro grana e basalico, frittelline alle alghe e paccheri ripieni di ricotta di bufala"
+      },
+      "ZEPPOLE_ALLE_ALGHE": {
+        "NOME": "ZEPPOLE ALLE ALGHE",
+        "INGREDIENTI": "paste cresciute alla lattuga di mare sale e pepe"
+      },
+      "LA_SCAMPAGNATA": {
+        "NOME": "LA SCAMPAGNATA - PER 2 PERSONE, TAGLIERE DI:",
+        "INGREDIENTI_1": "Salumi: mortadella Bologna IGP, prosciutto crudo di Parma DOP",
+        "INGREDIENTI_2": "Formaggi: burrata golosa di Puglia, cacioricotta stagionata",
+        "INGREDIENTI_3": "Polpettine di manzo e carciofo alla griglia"
+      }
+    },
+    "MOZZARELLE": {
+      "TITOLO": "MOZZARELLA DI BUFALA DOP",
+      "CON_POMODORO_RAMATO": {
+        "NOME": "CON POMODORO RAMATO E BASILICO (115g)",
+        "INGREDIENTI": "olio evo DOP, origano e basilico"
+      },
+      "CON_BUFALA_E_FRIARIELLI": {
+        "NOME": "CON BUFALA A FRIARIELLI (115g)"
+      },
+      "CON_PROSCIUTTO_DI_PARMA": {
+        "NOME": "CON PROSCIUTTO DI PARMA DOP, MELONE E POMODORINI (230g)",
+        "INGREDIENTI": "per 2 persone - olio evo DOP, mix di pane grigliato e origano"
+      },
+      "CON_POMODORINI_E_RUCOLA": {
+        "NOME": "CON POMODORINI E RUCOLA (230g)",
+        "INGREDIENTI": "per 2 persone - olio evo DOP e origano"
+      }
+    },
+    "INSALATONE": {
+      "TITOLO": "INSALATONE",
+      "PURO_DETOX": {
+        "NOME": "PURO - DETOX",
+        "INGREDIENTI": "insalata verde, finocchio, sedano, lupini, mela, ananas, semi di zucca, ristretto di aceto balsamico e olio evo"
+      },
+      "CIACIELLA": {
+        "NOME": "CIACIELLA",
+        "INGREDIENTI": "insalata verde, rucola, straccetti di manzo, funghi champignon, zucchine grigliate, pomodori secchi e scaglie di grana"
+      },
+      "PROSCIUTTELLA": {
+        "NOME": "PROSCIUTTELLA",
+        "INGREDIENTI": "rucola, radicchio, insalata verde, mozzarella di bufala DOP, prosciutto crudo di Parma DOP in olio, dadolata di melone, glassa di aceto balsamico e crostini di pane"
+      },
+      "CESARONA": {
+        "NOME": "CESARONA",
+        "INGREDIENTI": "insalata verde, radicchio, rucola, petto di pollo grigliato, pancetta croccante, scaglie di grana, olive nere, sesamo tostato e cesar dressing"
+      },
+      "TONNARA": {
+        "NOME": "TONNARA",
+        "INGREDIENTI": "insalata verde, rucola, filettini di tonno, patate al vapore, fagiolini, uova sode, pomodoro ramato, olive verdi e fresella integrale"
+      },
+      "BRACETTA": {
+        "NOME": "BRACETTA",
+        "INGREDIENTI": "insalata verde, verdure alla brace, rucola, caciottella di bufala, pomodoro ramato, olive verdi e dressing allo yogurt"
+      }
+    },
+    "PIZZE": {
+      "TITOLO": "PIZZE",
+      "MARINARA": {
+        "NOME": "MARINARA",
+        "INGREDIENTI": "Pomodori San Marzano DOP, Aglio, Origano, Olio EVO della penisola sorrentina DOP, Basilico"
+      },
+      "MARGHERITA": {
+        "NOME": "MARGHERITA",
+        "INGREDIENTI": "Pomodoro, Mozzarella, Basilico"
+      },
+      "MARGHERITA_PROVOLA_E_PEPE": {
+        "NOME": "MARGHERITA PROVOLA E PEPE",
+        "INGREDIENTI": "Pomodoro, provola affumicata, grana, pepe e basilico"
+      },
+      "COSACCA": {
+        "NOME": "COSACCA",
+        "INGREDIENTI": "Filetto di pomodoro antico di Napoli, pecorino bagnolese, basilico"
+      },
+      "DIAVOLA": {
+        "NOME": "DIAVOLA",
+        "INGREDIENTI": "Pomodoro, mozzarella, salamino piccante e basilico"
+      },
+      "NAPOLI": {
+        "NOME": "NAPOLI",
+        "INGREDIENTI": "pomodoro, mozzarella, acciughe, olive nere e capperi"
+      },
+      "BIANCA_COTTO_E_FUNGHI": {
+        "NOME": "BIANCA COTTO E FUNGHI",
+        "INGREDIENTI": "mozzarella, fior di panna, funghi champignon, prosciutto cotto e basilico"
+      },
+      "LA_DOC": {
+        "NOME": "LA DOC",
+        "INGREDIENTI": "Pomodoro, mozzarella di bufala DOP e basilico (in uscita dal forno olio evo della penisola sorrentina DOP)"
+      },
+      "FUOCO_PURO": {
+        "NOME": "FUOCO PURO",
+        "INGREDIENTI": "Provola affumicata di Agerola, San Marzano DOP, Piennolo del Vesuvio DOP, Datterini gialli di Battipaglia e Scaglie di Cacioricotta stagionata"
+      },
+      "CAPRICCIOSA": {
+        "NOME": "CAPRICCIOSA",
+        "INGREDIENTI": "pomodoro, mozzarella, funghi champignon, prosciutto cotto, carciofini e olive nere"
+      },
+      "PARMENSE": {
+        "NOME": "PARMENSE",
+        "INGREDIENTI": "mozzarella, prosciutto di Parma DOP, rucola e scaglie di grana"
+      },
+      "CINQUE_FORMAGGI": {
+        "NOME": "CINQUE FORMAGGI",
+        "INGREDIENTI": "provola affumicata, caciotta di bufala, gorgonzola, emmental e cialda di grana"
+      },
+      "DONNA_LAURA": {
+        "NOME": "DONNA LAURA",
+        "INGREDIENTI": "provola affumicata, salsiccia, peperoni gratinati, olive e capperi"
+      },
+      "MORTADELLA_E_PANZEROTTO": {
+        "NOME": "MORTADELLA E PANZEROTTO",
+        "INGREDIENTI": "provola affumicata, panzerotto di patate, mortadella IGP e granella di pistacchio"
+      },
+      "TONNO_E_CIPOLLA_ROSSA": {
+        "NOME": "TONNO E CIPOLLA ROSSA",
+        "INGREDIENTI": "pomodoro, mozzarella, tonno in olio, cipolla rossa e olive nere"
+      },
+      "LA_CAFONA": {
+        "NOME": "LA CAFONA",
+        "INGREDIENTI": "mozzarella, salsiccia, patate al rosmarino al forno"
+      }
+    },
+    "STAGIONALI": {
+      "TITOLO": "PIZZE STAGIONALI",
+      "SALSICCIA_E_FRIARIELLI": {
+        "NOME": "SALSICCIA E FRIARIELLI",
+        "INGREDIENTI": "provola affumicata, salsiccia, friarielli napoletani"
+      },
+      "RAGU_E_POLPETTINE": {
+        "NOME": "RAGÙ E POLPETTINE",
+        "INGREDIENTI": "mozzarella, ragù napoletano, ricottina di bufala, polpettine di manzo"
+      },
+      "ANGRISELLA": {
+        "NOME": "ANGRISELLA",
+        "INGREDIENTI": "provola affumicata, scarole olive e capperi, scaglie di pecorino, pinoli tostati"
+      },
+      "CACIO_E_PEPE": {
+        "NOME": "CACIO E PEPE",
+        "INGREDIENTI": "mozzarella, pecorino, pepe nero in grani macinato e burrata di bufala"
+      },
+      "PUVERELLA": {
+        "NOME": "PUVERELLA",
+        "INGREDIENTI": "mozzarella, peperoni melanzane zucchine saltate in padella e basilico"
+      }
+    },
+    "RIPIENE": {
+      "TITOLO": "PIZZE RIPIENE",
+      "CALZONE_AL_COTTO": {
+        "NOME": "CALZONE AL COTTO",
+        "INGREDIENTI": "ricotta di bufala, prosciutto cotto, mozzarella, pomodoro e pepe"
+      },
+      "CALZONE_ALLA_SCAROLA": {
+        "NOME": "CALZONE ALLA SCAROLA",
+        "INGREDIENTI": "provola affumicata, scarole, olive, capperi, pinoli tostati e grana"
+      },
+      "CALZONE_AL_SALAME": {
+        "NOME": "CALZONE AL SALAME",
+        "INGREDIENTI": "ricotta di bufala, salame Napoli, mozzarella, pomodoro e pepe"
+      },
+      "SOLE_LUNA": {
+        "NOME": "SOLE LUNA",
+        "INGREDIENTI": "metà ripiena con ricotta di bufala, pomodoro, mozzarella, grana, pepe, salame Napoli; metà mozzarella, prosciutto di Parma DOP"
+      }
+    },
+    "FRITTA": {
+      "TITOLO": "PIZZA FRITTA",
+      "MBUTTANATA": {
+        "NOME": "'MBUTTANATA",
+        "INGREDIENTI": "mozzarella, pomodoro, pepe e basilico"
+      },
+      "CHICCHINESE": {
+        "NOME": "CHICCHINESE",
+        "INGREDIENTI": "provola affumicata, ricotta di bufala, salame Napoli, grana, basilico e pepe"
+      },
+      "CICCIOLONA": {
+        "NOME": "CICCIOLONA",
+        "INGREDIENTI": "provola affumicata, pomodoro, cicoli napoletani, ricottina di bufala DOP, basilico e pepe"
+      },
+      "SCARULELLA": {
+        "NOME": "SCARULELLA",
+        "INGREDIENTI": "provola affumicata, scarole, olive, capperi, pinoli tostati e basilico"
+      }
+    },
+    "INTEGRALI": {
+      "TITOLO": "PIZZE INTEGRALI",
+      "CARCIOFINA": {
+        "NOME": "CARCIOFINA (FARINA DI CEREALI)",
+        "INGREDIENTI": "mozzarella, crema di carciofi; in uscita dal forno: carciofo alla griglia, cipolla caramellata, prosciutto di Parma DOP croccante"
+      },
+      "BUFALA_E_PARMA": {
+        "NOME": "BUFALA E PARMA (FARINA DI CEREALI)",
+        "INGREDIENTI": "mozzarella di bufala DOP, pomodorini, prosciutto di Parma DOP, rucola, cialda di grana"
+      },
+      "PUMMAROLA_MARINARA": {
+        "NOME": "PUMMAROLA.. MARINARA AI 3 POMODORI (FARINA INTEGRALE)",
+        "INGREDIENTI": "San Marzano DOP, Piennolo del Vesuvio DOP, datterini gialli di Battipaglia, olive nere, capperi, aglietto e origano"
+      },
+      "CREMA_DI_RADICCHIO_E_GORGONZOLA": {
+        "NOME": "CREMA DI RADICCHIO E GORGONZOLA (FARINA INTEGRALE)",
+        "INGREDIENTI": "mozzarella, gorgonzola, crema di radicchio; in uscita: pancetta croccante"
+      }
+    },
+    "SPAGHETTI": {
+      "TITOLO": "SPAGHETTI DI GRAGNANO",
+      "CON_ACCIUGHE": {
+        "NOME": "SPAGHETTI TRAFILATI AL BRONZO CON ACCIUGHE DEL MAR CANTABRICO E POMODORINI GIALLI, OLIVE E CAPPERI",
+        "INGREDIENTI": "con aglio, olio, peperoncino, prezzemolo"
+      },
+      "CON_POMODORINI": {
+        "NOME": "SPAGHETTI TRAFILATI AL BRONZO CON POMODORINI ROSSI E BASILICO EVO DOP"
+      },
+      "CON_COZZE_E_VONGOLE": {
+        "NOME": "SPAGHETTI TRAFILATI AL BRONZO CON COZZE E VONGOLE",
+        "INGREDIENTI": "con aglio, olio e prezzemolo, macchiati ai pomodorini"
+      }
+    },
+    "PASTA": {
+      "TITOLO": "PASTA FRESCA DI SEMOLA DI GRANO DURO",
+      "GNOCCHI_DI_PATATE": {
+        "NOME": "GNOCCHI DI PATATE ALLA SORRENTINA",
+        "INGREDIENTI": "gratinati al forno con provola affumicata, pomodoro corbarino, grana e basilico"
+      },
+      "PACCHERI_ALLA_GENOVESE": {
+        "NOME": "PACCHERI ALLA GENOVESE NAPOLETANA",
+        "INGREDIENTI": "con ragù bianco di manzo e cipolla stufata, grana e basilico"
+      },
+      "MANFREDI_RICOTTA_E_RAGU": {
+        "NOME": "MANFREDI RICOTTA E RAGÙ NAPOLETANO",
+        "INGREDIENTI": "con ricotta di bufala, bocconcino di carne al ragù napoletano, grana e basilico"
+      },
+      "PASTA_PATATE_E_PROVOLA": {
+        "NOME": "PASTA PATATE E PROVOLA CON LA CAMICIA",
+        "INGREDIENTI": "in pignatiello con patate e guanciale, mantecati con provola affumicata"
+      }
+    },
+    "CARNE": {
+      "TITOLO": "CARNE",
+      "SALSICCIA_E_FRIARIELLI": {
+        "NOME": "SALSICCIA E FRIARIELLI",
+        "INGREDIENTI": "salsiccia a punta di coltello e friarielli napoletani"
+      },
+      "PULLICINO": {
+        "NOME": "PULLICINO",
+        "INGREDIENTI": "petto di pollo (250gr) porcini trifolati, pancetta croccante, nocciole tostate, rucola"
+      },
+      "HAMBURGER_DI_CHIANINA": {
+        "NOME": "HAMBURGER* DI CHIANINA",
+        "INGREDIENTI": "hamburger (200gr), patate al forno"
+      },
+      "POLPETTE_DELLA_NONNA": {
+        "NOME": "POLPETTE DELLA NONNA",
+        "INGREDIENTI": "di manzo* al ragù napoletano, pane, grana e basilico"
+      }
+    },
+    "CONTORNI": {
+      "TITOLO": "CONTORNI",
+      "MELANZANE_A_FUNGHETTO": {
+        "NOME": "MELANZANE A FUNGHETTO"
+      },
+      "PATATE_AL_FORNO": {
+        "NOME": "PATATE AL FORNO"
+      },
+      "FRIARIELLI_NAPOLETANI": {
+        "NOME": "FRIARIELLI NAPOLETANI IN PADELLA"
+      },
+      "PATATE_FRITTE": {
+        "NOME": "PATATE FRITTE*"
+      },
+      "SCAROLE_OLIVE_E_CAPPERI": {
+        "NOME": "SCAROLE OLIVE E CAPPERI"
+      },
+      "MIX_DI_POMODORI": {
+        "NOME": "MIX DI POMODORI, CIPOLLA ROSSA, RUCOLA E ORIGANO"
+      }
+    },
+    "CANTINA": {
+      "TITOLO": "CANTINA",
+      "VINI_BIANCHI": {
+        "CATEGORIA": "VINI BIANCHI",
+        "LACRYMA_CHRISTI_BIANCO": {
+          "NOME": "LACRYMA CHRISTI DEL VESUVIO DOC",
+          "INGREDIENTI": "Enodelta"
+        },
+        "FALANGHINA_DEL_SANNIO": {
+          "NOME": "FALANGHINA DEL SANNIO DOP"
+        },
+        "GRECO_DI_TUFO": {
+          "NOME": "GRECO DI TUFO DOCG"
+        },
+        "FIANO_DI_AVELLINO": {
+          "NOME": "FIANO DI AVELLINO DOCG"
+        },
+        "FALANGHINA_CAMPANIA": {
+          "NOME": "FALANGHINA CAMPANIA IGP",
+          "INGREDIENTI": "frizzante naturale"
+        },
+        "FALANGHINA_POMPEIANO": {
+          "NOME": "FALANGHINA POMPEIANO IGP"
+        }
+      },
+      "VINI_ROSSI": {
+        "CATEGORIA": "VINI ROSSI",
+        "LACRYMA_CHRISTI_ROSSO": {
+          "NOME": "LACRYMA CHRISTI DEL VESUVIO DOP",
+          "INGREDIENTI": "Enodelta"
+        },
+        "AGLIANICO_SANNIO": {
+          "NOME": "AGLIANICO SANNIO DOP"
+        },
+        "ROSSO_POMPEIANO": {
+          "NOME": "ROSSO POMPEIANO",
+          "INGREDIENTI": "igp piedirosso – per 'e palummo"
+        },
+        "GRAGNANO_DOC": {
+          "NOME": "GRAGNANO DOC PENISOLA SORRENTINA",
+          "INGREDIENTI": "frizzante naturale"
+        },
+        "AGLIANICO_POMPEIANO": {
+          "NOME": "AGLIANICO POMPEIANO IGP"
+        }
+      },
+      "VINI_ROSE": {
+        "CATEGORIA": "VINI ROSÈ",
+        "LACRYMA_CHRISTI_ROSE": {
+          "NOME": "LACRYMA CHRISTI DEL VESUVIO DOC"
+        }
+      },
+      "VINO_DELLA_CASA": {
+        "CATEGORIA": "VINO DELLA CASA",
+        "ROSSO_E_BIANCO_VIVACE": {
+          "NOME": "ROSSO E BIANCO VIVACE"
+        }
+      },
+      "SPUMANTI": {
+        "CATEGORIA": "SPUMANTI E BOLLICINE",
+        "FERDINANDVS_I": {
+          "NOME": "FERDINANDVS I",
+          "INGREDIENTI": "Asprinio di Aversa extra brut - cuvée millesimato"
+        },
+        "PROSECCO": {
+          "NOME": "PROSECCO"
+        },
+        "FRANCIACORTA_BRUT": {
+          "NOME": "FRANCIACORTA BRUT"
+        }
+      },
+      "APERITIVI": {
+        "CATEGORIA": "APERITIVI",
+        "PROSECCO_AL_CALICE": {
+          "NOME": "PROSECCO (AL CALICE)"
+        },
+        "APEROL_CAMPARI_SPRITZ": {
+          "NOME": "APEROL / CAMPARI SPRITZ"
+        },
+        "SARTI_SPRITZ": {
+          "NOME": "SARTI SPRITZ",
+          "INGREDIENTI": "con mango e frutto della passione"
+        }
+      }
+    },
+    "BIRRE": {
+      "TITOLO": "BIRRE",
+      "STELLA_ARTOIS": {
+        "NOME": "STELLA ARTOIS BIONDA"
+      },
+      "LEFFE_ROSSA": {
+        "NOME": "LEFFE ROSSA DOPPIO MALTO"
+      },
+      "BIRRE_IN_BOTTIGLIA": {
+        "CATEGORIA": "BIRRE IN BOTTIGLIA"
+      },
+      "BIRRE_ARTIGIANALI": {
+        "NOME": "BIRRE ARTIGIANALI (33cl)"
+      }
+    },
+    "BIBITE": {
+      "TITOLO": "BIBITE",
+      "COCA_COLA_FANTA": {
+        "NOME": "COCA COLA, FANTA",
+        "INGREDIENTI": "bicchiere alla spina 40cl"
+      },
+      "GAZZOSA_BIO": {
+        "NOME": "GAZZOSA BIO - CHINOTTO BIO",
+        "INGREDIENTI": "bottiglia 35,5cl"
+      },
+      "ACQUA_MINERALE": {
+        "NOME": "ACQUA MINERALE",
+        "INGREDIENTI": "bottiglia 50cl"
+      }
+    }
+  },
+  "CONTATTI": {
+    "TITLE": "CONTATTI",
+    "NOME": "FUOCOPURO",
+    "INDIRIZZO": "VIA MONTANARA 15, 43124 PARMA",
+    "TEL": "TEL 0521 1962073",
+    "ORARI": {
+      "TITLE": "ORARI DI APERTURA",
+      "PRANZO": {
+        "LABEL": "PRANZO",
+        "ORARIO": "TUTTI I GIORNI: 12:00–15:00"
+      },
+      "CENA": {
+        "LABEL": "CENA",
+        "ORARIO_FERIALI": "DOMENICA – VENERDI: 19:00 – 23:00",
+        "ORARIO_SABATO": "SABATO: 19:00 – 00:00"
+      }
+    },
+    "SOCIAL": {
+      "TITLE": "SEGUICI SU",
+      "INSTAGRAM": "INSTAGRAM"
+    }
+  },
+  "FOOTER": {
+    "RAGIONE_SOCIALE": "NILOSA S.R.L",
+    "INDIRIZZO": "Via Marco Dell'Arpa 2 - 43121 Parma",
+    "PIVA": "Partita IVA: 03131530341",
+    "TEL": "TEL: 0521 1962073",
+    "INSTAGRAM": "Instagram"
+  }
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.fuocopuro-montanara.it/sitemap.xml

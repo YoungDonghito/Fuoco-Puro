@@ -13,27 +13,25 @@
       <h1
         class="antialiased mb-8 max-w-5xl font-condensed leading-[0.9] text-[#FCFBF7] uppercase drop-shadow-lg text-[50px] md:text-[140px]"
       >
-        Pizza Napoletana,<br />
-        Cucina Partenopea
+        {{ 'HOME.HERO.TITLE_L1' | translate }}<br />
+        {{ 'HOME.HERO.TITLE_L2' | translate }}
       </h1>
 
       <button
         routerLink="/menu"
-        class="antialiased bg-[#FCFBF7] px-8 py-3 font-condensed uppercase  text-[#B93622] transition hover:bg-gray-100 text-[18px] md:text-[22px]"
+        class="antialiased bg-[#FCFBF7] px-8 py-3 font-condensed uppercase text-[#B93622] transition hover:bg-gray-100 text-[18px] md:text-[22px]"
       >
-        Scopri il Menu
+        {{ 'HOME.HERO.CTA' | translate }}
       </button>
     </div>
   </div>
 
   <section class="flex justify-center bg-[#FCFBF7] px-4 py-20">
     <div class="w-full text-center px-4">
-      <p class="antialiased font-condensed  uppercase text-[#B93622] leading-[0.9] 
-                text-[22px] md:text-[32px] lg:text-[30px]"
+      <p
+        class="antialiased font-condensed uppercase text-[#B93622] leading-[0.9] text-[22px] md:text-[32px] lg:text-[30px]"
       >
-        FUOCOPURO È UNA PIZZERIA NAPOLETANA CHE PORTA A PARMA LA TRADIZIONE PARTENOPEA,<br />
-        FATTA DI IMPASTI GENUINI, INGREDIENTI AUTENTICI E RISPETTO PER I TEMPI DELLA PIZZA.<br />
-        LA NOSTRA CUCINA NASCE DALLA SEMPLICITÀ: POCHE REGOLE E FATTE BENE.
+        {{ 'HOME.CLAIM' | translate }}
       </p>
     </div>
   </section>
@@ -57,35 +55,16 @@
       class="flex flex-col items-center justify-center bg-[#B93622] px-6 py-16 text-center text-[#FCFBF7] md:h-[585px] md:px-8 md:py-0"
     >
       <h2 class="antialiased mb-6 font-condensed uppercase leading-tight text-[35px] md:text-[55px]">
-        Vieni a trovarci in<br />
-        Strada Montanara 15, Parma
+        {{ 'HOME.MAPPA.TITLE_L1' | translate }}<br />
+        {{ 'HOME.MAPPA.TITLE_L2' | translate }}
       </h2>
 
       <button
         (click)="goToLink(url)"
-        class="\mt-2 bg-[#FCFBF7] font-condensed uppercase  text-[#B93622] hover:bg-gray-100 w-full py-4 text-[20px] md:w-auto md:px-10 md:py-4 md:text-[24px]"
+        class="mt-2 bg-[#FCFBF7] font-condensed uppercase text-[#B93622] hover:bg-gray-100 w-full py-4 text-[20px] md:w-auto md:px-10 md:py-4 md:text-[24px]"
       >
-        Dove parcheggiare
+        {{ 'HOME.MAPPA.CTA' | translate }}
       </button>
     </div>
   </section>
-
-  <!-- <section class="flex flex-col items-center justify-center bg-[#FCFBF7] py-24 text-center px-4">
-    <h2 class="antialiased mb-10 font-condensed uppercase text-[#B93622] text-[35px] md:text-[60px]">
-      Preferisci ordinare da casa?
-    </h2>
-
-    <button
-      class="antialiased flex flex-row items-center justify-center gap-3 bg-[#bf3a2b] font-condensed text-[#FCFBF7] transition hover:bg-[#a32f22] w-full py-4 text-[22px] md:w-auto md:px-10 md:py-5 md:text-[30px]"
-    >
-      <span class="leading-none">ORDINA SU</span>
-
-      <img
-        src="images/glovo.svg"
-        alt="Glovo"
-        class="h-7 w-auto object-contain brightness-0 invert mt-[-4px] md:h-7"
-      />
-    </button>
-  </section> -->
-
-  </div>
+</div>

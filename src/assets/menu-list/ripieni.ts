@@ -1,24 +1,8 @@
 import { Piatto } from "../../app/model/menu.model";
 
 export const RIPIENE: Piatto[] = [
-    {
-        nome: 'CALZONE AL COTTO',
-        ingredienti: 'ricotta di bufala, prosciutto cotto, mozzarella, pomodoro e pepe',
-        prezzo: '11,50€'
-    },
-    {
-        nome: 'CALZONE ALLA SCAROLA',
-        ingredienti: 'provola affumicata, scarole, olive, capperi, pinoli tostati e grana',
-        prezzo: '11,50€'
-    },
-    {
-        nome: 'CALZONE AL SALAME',
-        ingredienti: 'ricotta di bufala, salame Napoli, mozzarella, pomodoro e pepe',
-        prezzo: '11,50€'
-    },
-    {
-        nome: 'SOLE LUNA',
-        ingredienti: 'metà ripiena con ricotta di bufala, pomodoro, mozzarella, grana, pepe, salame Napoli; metà mozzarella, prosciutto di Parma DOP',
-        prezzo: '13,00€'
-    }
+    { nome: 'MENU.RIPIENE.CALZONE_AL_COTTO.NOME', ingredienti: 'MENU.RIPIENE.CALZONE_AL_COTTO.INGREDIENTI', prezzo: '11,50€' },
+    { nome: 'MENU.RIPIENE.CALZONE_ALLA_SCAROLA.NOME', ingredienti: 'MENU.RIPIENE.CALZONE_ALLA_SCAROLA.INGREDIENTI', prezzo: '11,50€' },
+    { nome: 'MENU.RIPIENE.CALZONE_AL_SALAME.NOME', ingredienti: 'MENU.RIPIENE.CALZONE_AL_SALAME.INGREDIENTI', prezzo: '11,50€' },
+    { nome: 'MENU.RIPIENE.SOLE_LUNA.NOME', ingredienti: 'MENU.RIPIENE.SOLE_LUNA.INGREDIENTI', prezzo: '13,00€' }
 ];

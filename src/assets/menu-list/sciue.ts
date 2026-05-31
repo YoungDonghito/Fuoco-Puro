@@ -1,12 +1,12 @@
 import { Piatto } from '../../app/model/menu.model';
 export const SCIUE: Piatto[] = [
   {
-    nome: 'TOCCHETTI DI CRUDO IN OLIO CON CROSTINI',
+    nome: 'MENU.SCIUE.TOCCHETTI_DI_CRUDO.NOME',
     ingredienti: '',
     prezzo: '4€',
   },
   {
-    nome: 'OLIVE E LUPINI CONDITI',
+    nome: 'MENU.SCIUE.OLIVE_E_LUPINI.NOME',
     ingredienti: '',
     prezzo: '4€',
   },
