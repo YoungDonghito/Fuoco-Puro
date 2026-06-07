@@ -36,6 +36,22 @@
         "NOME": "BRUSCHETTA POMODORO E ORIGANO",
         "INGREDIENTI": "pane bianco, pomodoro ramato, basilico, olio evo, aglietto e origano"
       },
+      "TAGLIERE_DI_BRUSCHETTE": {
+        "NOME": "TAGLIERE_DI_BRUSCHETTE",
+        "INGREDIENTI_1": "1) pane, pomodoro ramato, basilico, olio evo, origano",
+        "INGREDIENTI_2": "2) pane, stracciatella di bufala, acciughe del Mar Cantabrico, prezzemolo",
+        "INGREDIENTI_3": "3) pane, zucchine alla nerano con fonduta di grana"
+      },
+      "E_CURNICIELL": {
+        "NOME": "E' CURNICIELL",
+        "INGREDIENTI_INTRO": "Coni di pizza fritta, farciti con:",
+        "INGREDIENTI_1": "1) Perline di mozzarella con panna, zeste di limone e mortadella Bologna IGP",
+        "INGREDIENTI_2": "2) Verdure, pesto di basilico e pomodorini"
+      },
+      "LA_MULIGNANONA": {
+        "NOME": "LA MULIGNANONA",
+        "INGREDIENTI": "polpettine di melanzane in cestino di grana su scottata di pomodorini e basilico"
+      },
       "I_BACI_DI_SOPHIA": {
         "NOME": "I BACI DI SOPHIA",
         "INGREDIENTI_INTRO": "3 montanare ripiene:",
@@ -66,80 +82,98 @@
       "LA_SCAMPAGNATA": {
         "NOME": "LA SCAMPAGNATA - PER 2 PERSONE, TAGLIERE DI:",
         "INGREDIENTI_1": "Salumi: mortadella Bologna IGP, prosciutto crudo di Parma DOP",
-        "INGREDIENTI_2": "Formaggi: burrata golosa di Puglia, cacioricotta stagionata",
-        "INGREDIENTI_3": "Polpettine di manzo e carciofo alla griglia"
+        "INGREDIENTI_2": "Formaggi: perline di mozzarella con panna, zeste di limone, cacioricotta stagionata",
+        "INGREDIENTI_3": "Polpettine di melanzane, carciofi alla griglia"
       }
     },
+
     "MOZZARELLE": {
       "TITOLO": "MOZZARELLA DI BUFALA DOP",
-      "CON_POMODORO_RAMATO": {
-        "NOME": "CON POMODORO RAMATO E BASILICO (115g)",
+
+      "CON_CUORE_DI_BUE": {
+        "NOME": "CON CUORE DI BUE E BASILICO (115g)",
         "INGREDIENTI": "olio evo DOP, origano e basilico"
       },
-      "CON_BUFALA_E_FRIARIELLI": {
-        "NOME": "CON BUFALA A FRIARIELLI (115g)"
+
+      "CON_BRESAOLA_DI_BUFALA_E_ZUCCHINE": {
+        "NOME": "CON BRESAOLA DI BUFALA E ZUCCHINE (115g)",
+        "INGREDIENTI": "citronette agli agrumi e menta"
       },
+
+      "CON_SALMONE_AFFUMICATO_E_AVOCADO": {
+        "NOME": "CON SALMONE AFFUMICATO E AVOCADO (115g)",
+        "INGREDIENTI": "olio evo DOP e basilico"
+      },
+
       "CON_PROSCIUTTO_DI_PARMA": {
-        "NOME": "CON PROSCIUTTO DI PARMA DOP, MELONE E POMODORINI (230g)",
-        "INGREDIENTI": "per 2 persone - olio evo DOP, mix di pane grigliato e origano"
+        "NOME": "CON PROSCIUTTO DI PARMA DOP, MELONE E MIX DI POMODORI (230g)",
+        "INGREDIENTI": "per 2 persone - olio evo DOP, pane grigliato, origano"
       },
-      "CON_POMODORINI_E_RUCOLA": {
-        "NOME": "CON POMODORINI E RUCOLA (230g)",
-        "INGREDIENTI": "per 2 persone - olio evo DOP e origano"
+
+      "CON_MIX_DI_POMODORI_E_RUCOLA": {
+        "NOME": "CON MIX DI POMODORI E RUCOLA (230g)",
+        "INGREDIENTI": "per 2 persone - olio evo DOP, origano"
       }
     },
     "INSALATONE": {
       "TITOLO": "INSALATONE",
+
       "PURO_DETOX": {
         "NOME": "PURO - DETOX",
-        "INGREDIENTI": "insalata verde, finocchio, sedano, lupini, mela, ananas, semi di zucca, ristretto di aceto balsamico e olio evo"
+        "INGREDIENTI": "insalata verde, finocchio, sedano, lupini, mela, kiwi, semi di zucca, ristretto di aceto balsamico e olio evo"
       },
-      "CIACIELLA": {
-        "NOME": "CIACIELLA",
-        "INGREDIENTI": "insalata verde, rucola, straccetti di manzo, funghi champignon, zucchine grigliate, pomodori secchi e scaglie di grana"
-      },
+
       "PROSCIUTTELLA": {
         "NOME": "PROSCIUTTELLA",
-        "INGREDIENTI": "rucola, radicchio, insalata verde, mozzarella di bufala DOP, prosciutto crudo di Parma DOP in olio, dadolata di melone, glassa di aceto balsamico e crostini di pane"
+        "INGREDIENTI": "rucola, radicchio, insalata verde, bocconcini di mozzarella di bufala DOP, prosciutto di Parma DOP in olio, dadolata di melone, glassa di aceto balsamico e crostini di pane"
       },
+
       "CESARONA": {
         "NOME": "CESARONA",
         "INGREDIENTI": "insalata verde, radicchio, rucola, petto di pollo grigliato, pancetta croccante, scaglie di grana, olive nere, sesamo tostato e cesar dressing"
       },
+
       "TONNARA": {
         "NOME": "TONNARA",
         "INGREDIENTI": "insalata verde, rucola, filettini di tonno, patate al vapore, fagiolini, uova sode, pomodoro ramato, olive verdi e fresella integrale"
       },
-      "BRACETTA": {
-        "NOME": "BRACETTA",
-        "INGREDIENTI": "insalata verde, verdure alla brace, rucola, caciottella di bufala, pomodoro ramato, olive verdi e dressing allo yogurt"
+
+      "MARINARELLA": {
+        "NOME": "MARINARELLA",
+        "INGREDIENTI": "insalata verde, rucola, salmone affumicato, carote, olive verdi, finocchi"
+      },
+
+      "BRESAOLELLA": {
+        "NOME": "BRESAOLELLA",
+        "INGREDIENTI": "riso basmati, julienne di bresaola, rucola, scaglie di grana, olio evo DOP"
       }
     },
+
     "PIZZE": {
       "TITOLO": "PIZZE",
       "MARINARA": {
         "NOME": "MARINARA",
-        "INGREDIENTI": "Pomodori San Marzano DOP, Aglio, Origano, Olio EVO della penisola sorrentina DOP, Basilico"
+        "INGREDIENTI": "pomodoro, pomodori San Marzano DOP, aglio, origano, olio evo DOP e basilico"
       },
       "MARGHERITA": {
         "NOME": "MARGHERITA",
-        "INGREDIENTI": "Pomodoro, Mozzarella, Basilico"
+        "INGREDIENTI": "pomodoro, mozzarella, grana e basilico"
       },
       "MARGHERITA_PROVOLA_E_PEPE": {
         "NOME": "MARGHERITA PROVOLA E PEPE",
-        "INGREDIENTI": "Pomodoro, provola affumicata, grana, pepe e basilico"
-      },
-      "COSACCA": {
-        "NOME": "COSACCA",
-        "INGREDIENTI": "Filetto di pomodoro antico di Napoli, pecorino bagnolese, basilico"
-      },
-      "DIAVOLA": {
-        "NOME": "DIAVOLA",
-        "INGREDIENTI": "Pomodoro, mozzarella, salamino piccante e basilico"
+        "INGREDIENTI": "pomodoro, provola, grana, pepe e basilico"
       },
       "NAPOLI": {
         "NOME": "NAPOLI",
-        "INGREDIENTI": "pomodoro, mozzarella, acciughe, olive nere e capperi"
+        "INGREDIENTI": "pomodoro, mozzarella, acciughe sott'olio, olive nere, capperi e basilico"
+      },
+      "COSACCA": {
+        "NOME": "COSACCA",
+        "INGREDIENTI": "pomodori San Marzano DOP, pecorino e basilico"
+      },
+      "DIAVOLA": {
+        "NOME": "DIAVOLA",
+        "INGREDIENTI": "pomodoro, mozzarella, salamino piccante e basilico"
       },
       "BIANCA_COTTO_E_FUNGHI": {
         "NOME": "BIANCA COTTO E FUNGHI",
@@ -147,15 +181,19 @@
       },
       "LA_DOC": {
         "NOME": "LA DOC",
-        "INGREDIENTI": "Pomodoro, mozzarella di bufala DOP e basilico (in uscita dal forno olio evo della penisola sorrentina DOP)"
+        "INGREDIENTI": "pomodoro, mozzarella di bufala DOP, basilico e, in uscita dal forno, olio evo DOP"
       },
       "FUOCO_PURO": {
         "NOME": "FUOCO PURO",
-        "INGREDIENTI": "Provola affumicata di Agerola, San Marzano DOP, Piennolo del Vesuvio DOP, Datterini gialli di Battipaglia e Scaglie di Cacioricotta stagionata"
+        "INGREDIENTI": "provola affumicata, San Marzano DOP, Piennolo dal Vesuvio DOP, datterini gialli di Battipaglia e scaglie di cacioricotta stagionata"
       },
       "CAPRICCIOSA": {
         "NOME": "CAPRICCIOSA",
         "INGREDIENTI": "pomodoro, mozzarella, funghi champignon, prosciutto cotto, carciofini e olive nere"
+      },
+      "LA_CAFONA": {
+        "NOME": "LA CAFONA",
+        "INGREDIENTI": "mozzarella, salsiccia, patate al rosmarino al forno"
       },
       "PARMENSE": {
         "NOME": "PARMENSE",
@@ -163,7 +201,7 @@
       },
       "CINQUE_FORMAGGI": {
         "NOME": "CINQUE FORMAGGI",
-        "INGREDIENTI": "provola affumicata, caciotta di bufala, gorgonzola, emmental e cialda di grana"
+        "INGREDIENTI": "provola, caciotta di bufala, gorgonzola, emmental e cialda di grana"
       },
       "DONNA_LAURA": {
         "NOME": "DONNA LAURA",
@@ -171,38 +209,32 @@
       },
       "MORTADELLA_E_PANZEROTTO": {
         "NOME": "MORTADELLA E PANZEROTTO",
-        "INGREDIENTI": "provola affumicata, panzerotto di patate, mortadella IGP e granella di pistacchio"
-      },
-      "TONNO_E_CIPOLLA_ROSSA": {
-        "NOME": "TONNO E CIPOLLA ROSSA",
-        "INGREDIENTI": "pomodoro, mozzarella, tonno in olio, cipolla rossa e olive nere"
-      },
-      "LA_CAFONA": {
-        "NOME": "LA CAFONA",
-        "INGREDIENTI": "mozzarella, salsiccia, patate al rosmarino al forno"
+        "INGREDIENTI": "provola affumicata, panzerotto di patate, mortadella IGP e granella di pistacchi"
       }
     },
     "STAGIONALI": {
       "TITOLO": "PIZZE STAGIONALI",
-      "SALSICCIA_E_FRIARIELLI": {
-        "NOME": "SALSICCIA E FRIARIELLI",
-        "INGREDIENTI": "provola affumicata, salsiccia, friarielli napoletani"
+      "SCARPETTA": {
+        "NOME": "SCARPETTA",
+        "INGREDIENTI": "salsa di pomodorini, bocconcini di mozzarella di bufala DOP, scaglie di grana e basilico"
       },
-      "RAGU_E_POLPETTINE": {
-        "NOME": "RAGÙ E POLPETTINE",
-        "INGREDIENTI": "mozzarella, ragù napoletano, ricottina di bufala, polpettine di manzo"
+      "NERANO": {
+        "NOME": "NERANO",
+        "INGREDIENTI": "provola affumicata, zucchine alla menta e fonduta di grana"
       },
-      "ANGRISELLA": {
-        "NOME": "ANGRISELLA",
-        "INGREDIENTI": "provola affumicata, scarole olive e capperi, scaglie di pecorino, pinoli tostati"
+      "PERLINE_E_POMODORINI": {
+        "NOME": "PERLINE E POMODORINI",
+        "INGREDIENTI": "focaccia rossa all'origano e, in uscita dal forno, perline di mozzarella con panna, pomodorini, rucola, basilico e olio evo DOP"
       },
-      "CACIO_E_PEPE": {
-        "NOME": "CACIO E PEPE",
-        "INGREDIENTI": "mozzarella, pecorino, pepe nero in grani macinato e burrata di bufala"
+      "BRESAOLA_E_ZUCCHINE": {
+        "NOME": "BRESAOLA E ZUCCHINE",
+        "INGREDIENTI": "focaccia rossa all'origano e, in uscita dal forno, stracciatella di bufala, bresaola, crudité di zucchine, citronette al limone e cialda di grana"
       },
-      "PUVERELLA": {
-        "NOME": "PUVERELLA",
-        "INGREDIENTI": "mozzarella, peperoni melanzane zucchine saltate in padella e basilico"
+      "LA_3_GUSTI": {
+        "NOME": "LA 3 GUSTI",
+        "INGREDIENTI_1": "1) Mozzarella, prosciutto crudo di Parma DOP, rucola e scaglie di grana",
+        "INGREDIENTI_2": "2) Provola affumicata, i 3 pomodori e cacioricotta",
+        "INGREDIENTI_3": "3) Pomodoro, aglietto e origano"
       }
     },
     "RIPIENE": {
@@ -260,58 +292,62 @@
       "CREMA_DI_RADICCHIO_E_GORGONZOLA": {
         "NOME": "CREMA DI RADICCHIO E GORGONZOLA (FARINA INTEGRALE)",
         "INGREDIENTI": "mozzarella, gorgonzola, crema di radicchio; in uscita: pancetta croccante"
+      },
+      "VERDURE_E_PESTO":{
+        "NOME": "VERDURE E PESTO (FARINA INTEGRALE)",
+        "INGREDIENTI": "mozzarella, pomodorini, verdure alla brace, pesto di basilico"
       }
     },
     "SPAGHETTI": {
       "TITOLO": "SPAGHETTI DI GRAGNANO",
-      "CON_ACCIUGHE": {
-        "NOME": "SPAGHETTI TRAFILATI AL BRONZO CON ACCIUGHE DEL MAR CANTABRICO E POMODORINI GIALLI, OLIVE E CAPPERI",
-        "INGREDIENTI": "con aglio, olio, peperoncino, prezzemolo"
-      },
       "CON_POMODORINI": {
         "NOME": "SPAGHETTI TRAFILATI AL BRONZO CON POMODORINI ROSSI E BASILICO EVO DOP"
       },
       "CON_COZZE_E_VONGOLE": {
         "NOME": "SPAGHETTI TRAFILATI AL BRONZO CON COZZE E VONGOLE",
-        "INGREDIENTI": "con aglio, olio e prezzemolo, macchiati ai pomodorini"
+        "INGREDIENTI": "con aglietto, olio e prezzemolo, macchiati ai pomodorini"
+      },
+      "CON_ACCIUGHE": {
+        "NOME": "SPAGHETTI TRAFILATI AL BRONZO CON ACCIUGHE DEL MAR CANTABRICO E POMODORINI GIALLI, OLIVE E CAPPERI",
+        "INGREDIENTI": "con aglio, olio, peperoncino e prezzemolo"
+      },
+      "CARBONARA_DI_MARE": {
+        "NOME": "CARBONARA DI MARE",
+        "INGREDIENTI": "gamberetti, guanciale, uova, prezzemolo e pecorino"
       }
     },
     "PASTA": {
       "TITOLO": "PASTA FRESCA DI SEMOLA DI GRANO DURO",
       "GNOCCHI_DI_PATATE": {
-        "NOME": "GNOCCHI DI PATATE ALLA SORRENTINA",
+        "NOME": "GNOCCHI ALLA SORRENTINA",
         "INGREDIENTI": "gratinati al forno con provola affumicata, pomodoro corbarino, grana e basilico"
       },
-      "PACCHERI_ALLA_GENOVESE": {
-        "NOME": "PACCHERI ALLA GENOVESE NAPOLETANA",
-        "INGREDIENTI": "con ragù bianco di manzo e cipolla stufata, grana e basilico"
+      "PACCHERI_ALLA_NERANO": {
+        "NOME": "PACCHERI ALLA NERANO",
+        "INGREDIENTI": "con zucchine, provolone, parmigiano, pepe e basilico"
       },
-      "MANFREDI_RICOTTA_E_RAGU": {
-        "NOME": "MANFREDI RICOTTA E RAGÙ NAPOLETANO",
-        "INGREDIENTI": "con ricotta di bufala, bocconcino di carne al ragù napoletano, grana e basilico"
+      "SCIALATIELLI_VERDURE_E_PESTO": {
+        "NOME": "SCIALATIELLI VERDURE E PESTO",
+        "INGREDIENTI": "con melanzane, zucchine, pomodorini rossi, pesto di basilico e scaglie di ricotta stagionata"
       },
-      "PASTA_PATATE_E_PROVOLA": {
-        "NOME": "PASTA PATATE E PROVOLA CON LA CAMICIA",
-        "INGREDIENTI": "in pignatiello con patate e guanciale, mantecati con provola affumicata"
+      "FUSILLONI_CREMA_DI_CARCIOFI_E_SALSICCIA": {
+        "NOME": "FUSILLONI CON CREMA DI CARCIOFI E SALSICCIA",
+        "INGREDIENTI": "mantecati con stracciatella di bufala"
       }
     },
     "CARNE": {
       "TITOLO": "CARNE",
-      "SALSICCIA_E_FRIARIELLI": {
-        "NOME": "SALSICCIA E FRIARIELLI",
-        "INGREDIENTI": "salsiccia a punta di coltello e friarielli napoletani"
+      "BISTECCONE_DI_MANZO": {
+        "NOME": "BISTECCONE DI MANZO",
+        "INGREDIENTI": "con osso (500gr), con rucola"
       },
-      "PULLICINO": {
-        "NOME": "PULLICINO",
-        "INGREDIENTI": "petto di pollo (250gr) porcini trifolati, pancetta croccante, nocciole tostate, rucola"
+      "MILLEFOGLIE_DI_POLLO_E_VERDURE_ALLA_BRACE": {
+        "NOME": "MILLEFOGLIE DI POLLO E VERDURE ALLA BRACE",
+        "INGREDIENTI": "petto di pollo (250gr), melanzane, zucchine, peperoni e glassa di aceto balsamico"
       },
-      "HAMBURGER_DI_CHIANINA": {
-        "NOME": "HAMBURGER* DI CHIANINA",
-        "INGREDIENTI": "hamburger (200gr), patate al forno"
-      },
-      "POLPETTE_DELLA_NONNA": {
-        "NOME": "POLPETTE DELLA NONNA",
-        "INGREDIENTI": "di manzo* al ragù napoletano, pane, grana e basilico"
+      "COTOLETTA_NAPOLETANA": {
+        "NOME": "COTOLETTA NAPOLETANA",
+        "INGREDIENTI": "lonza di maiale (300gr), panata e fritta, con rucola, tapenade di pomodorini e scaglie di grana"
       }
     },
     "CONTORNI": {
@@ -322,17 +358,14 @@
       "PATATE_AL_FORNO": {
         "NOME": "PATATE AL FORNO"
       },
-      "FRIARIELLI_NAPOLETANI": {
-        "NOME": "FRIARIELLI NAPOLETANI IN PADELLA"
+      "MIX_DI_POMODORI": {
+        "NOME": "MIX DI POMODORI, CIPOLLA ROSSA, RUCOLA E ORIGANO"
       },
       "PATATE_FRITTE": {
         "NOME": "PATATE FRITTE*"
       },
-      "SCAROLE_OLIVE_E_CAPPERI": {
-        "NOME": "SCAROLE OLIVE E CAPPERI"
-      },
-      "MIX_DI_POMODORI": {
-        "NOME": "MIX DI POMODORI, CIPOLLA ROSSA, RUCOLA E ORIGANO"
+      "INSALATINA_MISTA_DI_STAGIONE": {
+        "NOME": "INSALATINA MISTA DI STAGIONE"
       }
     },
     "CANTINA": {

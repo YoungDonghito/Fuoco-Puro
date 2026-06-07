@@ -15,6 +15,7 @@ export class HeaderComponent {
   isMenuOpen = false;
   isScrolled = false;
   isLangOpen = signal(false);
+  private menuAnimating = false;
 
   private router = inject(Router);
   private el = inject(ElementRef);
@@ -33,7 +34,10 @@ export class HeaderComponent {
   }
 
   toggleMenu() {
+    if (this.menuAnimating) return;
+    this.menuAnimating = true;
     this.isMenuOpen = !this.isMenuOpen;
+    setTimeout(() => (this.menuAnimating = false), 300);
   }
 
   toggleLangMenu() {
